@@ -1,0 +1,138 @@
+======================================================================
+  FRAMEWORK EVALUATION REPORT
+  MTD + ALC + Diagnosis + Repair Pipeline
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+  DATASET: BIGVUL
+──────────────────────────────────────────────────────────────────────
+  Total samples: 4238
+  Labelled:      4238  (pos=251  neg=3987)
+
+  ── OVERALL MTD DETECTION METRICS ──────────────────────────
+  Accuracy:    0.9842
+  Precision:   0.9646
+  Recall:      0.7610
+  F1 Score:    0.8508
+  FPR:         0.0018
+  FNR:         0.2390
+  Specificity: 0.9982
+  MCC:         0.8492
+  AUC-ROC:     0.9127
+  Confusion:   TP=191  TN=3980  FP=7  FN=60
+
+  ── ALC TRUSTWORTHINESS BREAKDOWN ───────────────────────────
+  UNTRUSTWORTHY   n=3529  Acc=0.9841  P=0.9645  R=0.7950  F1=0.8716
+  TRUSTWORTHY     n= 709  Acc=0.9845  P=1.0000  R=0.0833  F1=0.1538
+  Threshold validity: VALID ✓
+
+
+  ── TRUST LEVEL BREAKDOWN ───────────────────────────────────
+  MODERATE   n= 709  Acc=0.9845  F1=0.1538
+  LOW        n=3529  Acc=0.9841  F1=0.8716
+
+  ── DIAGNOSIS MODULE RESULTS ────────────────────────────────────
+  Diagnosis triggered: 3529 samples  (83.3% of total)
+
+  Error source distribution:
+    NOISY_STRATEGY         2484  (70.4%)
+    AMBIGUOUS               428  (12.1%)
+    MISSED_VULN             361  (10.2%)
+    FALSE_PATTERN           256  (7.3%)
+
+  Top dominant CWEs:
+    (no dominant CWE)      2700
+    struct-array            444
+    CWE-120                 131
+    CWE-190                  60
+    CWE-484                  53
+    CWE-416                  51
+    struct-cast              39
+    CWE-704                  19
+
+  Conflict patterns:
+    SINGLE_HIGH_OUTLIER              3061
+    SPLIT_DISAGREEMENT                388
+    SINGLE_LOW_OUTLIER                 80
+
+  ── REPAIR MODULE RESULTS ───────────────────────────────────────
+  Repair attempted:   3529 samples
+  Patches generated:  3529
+  Patch success rate: 100.0%
+
+  ── TASK SCORE ANALYSIS ─────────────────────────────────────────
+  task1_score     mean=0.1396  max=1.0000  nonzero=1090
+  task2_score     mean=0.8017  max=0.9997  nonzero=3810
+  task3_score     mean=0.0052  max=0.6333  nonzero=287
+  task4_score     mean=0.2199  max=1.0000  nonzero=4155
+
+  ── STRATEGY DISTRIBUTION ───────────────────────────────────────
+    heuristic              4049
+    ground_truth            189
+
+──────────────────────────────────────────────────────────────────────
+  DATASET: MEGAVUL
+──────────────────────────────────────────────────────────────────────
+  Total samples: 1019
+  Labelled:      1019  (pos=61  neg=958)
+
+  ── OVERALL MTD DETECTION METRICS ──────────────────────────
+  Accuracy:    0.4828
+  Precision:   0.0413
+  Recall:      0.3443
+  F1 Score:    0.0738
+  FPR:         0.5084
+  FNR:         0.6557
+  Specificity: 0.4916
+  MCC:         -0.0779
+  AUC-ROC:     0.4513
+  Confusion:   TP=21  TN=471  FP=487  FN=40
+
+  ── ALC TRUSTWORTHINESS BREAKDOWN ───────────────────────────
+  UNTRUSTWORTHY   n= 897  Acc=0.4415  P=0.0413  R=0.6000  F1=0.0773
+  TRUSTWORTHY     n= 122  Acc=0.7869  P=0.0000  R=0.0000  F1=0.0000
+  Threshold validity: VALID ✓
+
+
+  ── TRUST LEVEL BREAKDOWN ───────────────────────────────────
+  MODERATE   n= 122  Acc=0.7869  F1=0.0000
+  LOW        n= 897  Acc=0.4415  F1=0.0773
+
+  ── DIAGNOSIS MODULE RESULTS ────────────────────────────────────
+  Diagnosis triggered: 897 samples  (88.0% of total)
+
+  Error source distribution:
+    NOISY_STRATEGY          484  (54.0%)
+    MISSED_VULN             226  (25.2%)
+    AMBIGUOUS               165  (18.4%)
+    FALSE_PATTERN            22  (2.5%)
+
+  Top dominant CWEs:
+    (no dominant CWE)       519
+    struct-array            235
+    CWE-120                  67
+    CWE-484                  27
+    CWE-416                  13
+    CWE-190                  12
+    struct-cast              11
+    CWE-704                   4
+
+  Conflict patterns:
+    SINGLE_HIGH_OUTLIER               495
+    SPLIT_DISAGREEMENT                348
+    SINGLE_LOW_OUTLIER                 54
+
+  ── REPAIR MODULE RESULTS ───────────────────────────────────────
+  Repair attempted:   897 samples
+  Patches generated:  897
+  Patch success rate: 100.0%
+
+  ── TASK SCORE ANALYSIS ─────────────────────────────────────────
+  task1_score     mean=0.2973  max=0.8338  nonzero=1019
+  task2_score     mean=0.9578  max=0.9997  nonzero=1019
+  task3_score     mean=0.0312  max=1.0000  nonzero=146
+  task4_score     mean=0.4170  max=1.0000  nonzero=1014
+
+  ── STRATEGY DISTRIBUTION ───────────────────────────────────────
+    heuristic               511
+    all_lines               508

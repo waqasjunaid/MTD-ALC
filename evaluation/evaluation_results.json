@@ -1,0 +1,342 @@
+{
+  "BigVul": {
+    "dataset": "BigVul",
+    "total_samples": 4238,
+    "labelled_samples": 4238,
+    "class_distribution": {
+      "positive": 251,
+      "negative": 3987
+    },
+    "overall_metrics": {
+      "accuracy": 0.9842,
+      "precision": 0.9646,
+      "recall": 0.761,
+      "f1": 0.8508,
+      "fpr": 0.0018,
+      "fnr": 0.239,
+      "specificity": 0.9982,
+      "mcc": 0.8492,
+      "auc_roc": 0.8796,
+      "tp": 191,
+      "tn": 3980,
+      "fp": 7,
+      "fn": 60,
+      "total": 4238,
+      "support_pos": 251,
+      "support_neg": 3987,
+      "auc_roc_full": 0.9127
+    },
+    "alc_breakdown": {
+      "untrustworthy": {
+        "accuracy": 0.9841,
+        "precision": 0.9645,
+        "recall": 0.795,
+        "f1": 0.8716,
+        "fpr": 0.0021,
+        "fnr": 0.205,
+        "specificity": 0.9979,
+        "mcc": 0.8678,
+        "auc_roc": 0.8964,
+        "tp": 190,
+        "tn": 3283,
+        "fp": 7,
+        "fn": 49,
+        "total": 3529,
+        "support_pos": 239,
+        "support_neg": 3290,
+        "count": 3529
+      },
+      "trustworthy": {
+        "accuracy": 0.9845,
+        "precision": 1.0,
+        "recall": 0.0833,
+        "f1": 0.1538,
+        "fpr": 0.0,
+        "fnr": 0.9167,
+        "specificity": 1.0,
+        "mcc": 0.2864,
+        "auc_roc": 0.5417,
+        "tp": 1,
+        "tn": 697,
+        "fp": 0,
+        "fn": 11,
+        "total": 709,
+        "support_pos": 12,
+        "support_neg": 697,
+        "count": 709
+      }
+    },
+    "trust_level_metrics": {
+      "LOW": {
+        "accuracy": 0.9841,
+        "precision": 0.9645,
+        "recall": 0.795,
+        "f1": 0.8716,
+        "fpr": 0.0021,
+        "fnr": 0.205,
+        "specificity": 0.9979,
+        "mcc": 0.8678,
+        "auc_roc": 0.8964,
+        "tp": 190,
+        "tn": 3283,
+        "fp": 7,
+        "fn": 49,
+        "total": 3529,
+        "support_pos": 239,
+        "support_neg": 3290,
+        "count": 3529
+      },
+      "MODERATE": {
+        "accuracy": 0.9845,
+        "precision": 1.0,
+        "recall": 0.0833,
+        "f1": 0.1538,
+        "fpr": 0.0,
+        "fnr": 0.9167,
+        "specificity": 1.0,
+        "mcc": 0.2864,
+        "auc_roc": 0.5417,
+        "tp": 1,
+        "tn": 697,
+        "fp": 0,
+        "fn": 11,
+        "total": 709,
+        "support_pos": 12,
+        "support_neg": 697,
+        "count": 709
+      }
+    },
+    "alc_threshold_valid": true,
+    "diagnosis": {
+      "total_run": 3529,
+      "error_sources": {
+        "NOISY_STRATEGY": 2484,
+        "FALSE_PATTERN": 256,
+        "AMBIGUOUS": 428,
+        "MISSED_VULN": 361
+      },
+      "top_cwes": {
+        "": 2700,
+        "struct-array": 444,
+        "CWE-120": 131,
+        "CWE-190": 60,
+        "CWE-484": 53,
+        "CWE-416": 51,
+        "struct-cast": 39,
+        "CWE-704": 19,
+        "CWE-476": 13,
+        "CWE-119": 8
+      },
+      "conflict_patterns": {
+        "SINGLE_HIGH_OUTLIER": 3061,
+        "SPLIT_DISAGREEMENT": 388,
+        "SINGLE_LOW_OUTLIER": 80
+      }
+    },
+    "repair": {
+      "total_attempted": 3529,
+      "patches_generated": 3529,
+      "success_rate": 1.0
+    },
+    "task_score_analysis": {
+      "task1_score": {
+        "mean": 0.1396,
+        "max": 1.0,
+        "min": 0.0,
+        "nonzero": 1090
+      },
+      "task2_score": {
+        "mean": 0.8017,
+        "max": 0.9997,
+        "min": 0.0,
+        "nonzero": 3810
+      },
+      "task3_score": {
+        "mean": 0.0052,
+        "max": 0.6333,
+        "min": 0.0,
+        "nonzero": 287
+      },
+      "task4_score": {
+        "mean": 0.2199,
+        "max": 1.0,
+        "min": 0.0,
+        "nonzero": 4155
+      }
+    },
+    "strategy_distribution": {
+      "heuristic": 4049,
+      "ground_truth": 189
+    }
+  },
+  "MegaVul": {
+    "dataset": "MegaVul",
+    "total_samples": 1019,
+    "labelled_samples": 1019,
+    "class_distribution": {
+      "positive": 61,
+      "negative": 958
+    },
+    "overall_metrics": {
+      "accuracy": 0.4828,
+      "precision": 0.0413,
+      "recall": 0.3443,
+      "f1": 0.0738,
+      "fpr": 0.5084,
+      "fnr": 0.6557,
+      "specificity": 0.4916,
+      "mcc": -0.0779,
+      "auc_roc": 0.418,
+      "tp": 21,
+      "tn": 471,
+      "fp": 487,
+      "fn": 40,
+      "total": 1019,
+      "support_pos": 61,
+      "support_neg": 958,
+      "auc_roc_full": 0.4513
+    },
+    "alc_breakdown": {
+      "untrustworthy": {
+        "accuracy": 0.4415,
+        "precision": 0.0413,
+        "recall": 0.6,
+        "f1": 0.0773,
+        "fpr": 0.565,
+        "fnr": 0.4,
+        "specificity": 0.435,
+        "mcc": 0.0137,
+        "auc_roc": 0.5175,
+        "tp": 21,
+        "tn": 375,
+        "fp": 487,
+        "fn": 14,
+        "total": 897,
+        "support_pos": 35,
+        "support_neg": 862,
+        "count": 897
+      },
+      "trustworthy": {
+        "accuracy": 0.7869,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fpr": 0.0,
+        "fnr": 1.0,
+        "specificity": 1.0,
+        "mcc": 0.0,
+        "auc_roc": 0.5,
+        "tp": 0,
+        "tn": 96,
+        "fp": 0,
+        "fn": 26,
+        "total": 122,
+        "support_pos": 26,
+        "support_neg": 96,
+        "count": 122
+      }
+    },
+    "trust_level_metrics": {
+      "LOW": {
+        "accuracy": 0.4415,
+        "precision": 0.0413,
+        "recall": 0.6,
+        "f1": 0.0773,
+        "fpr": 0.565,
+        "fnr": 0.4,
+        "specificity": 0.435,
+        "mcc": 0.0137,
+        "auc_roc": 0.5175,
+        "tp": 21,
+        "tn": 375,
+        "fp": 487,
+        "fn": 14,
+        "total": 897,
+        "support_pos": 35,
+        "support_neg": 862,
+        "count": 897
+      },
+      "MODERATE": {
+        "accuracy": 0.7869,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "fpr": 0.0,
+        "fnr": 1.0,
+        "specificity": 1.0,
+        "mcc": 0.0,
+        "auc_roc": 0.5,
+        "tp": 0,
+        "tn": 96,
+        "fp": 0,
+        "fn": 26,
+        "total": 122,
+        "support_pos": 26,
+        "support_neg": 96,
+        "count": 122
+      }
+    },
+    "alc_threshold_valid": true,
+    "diagnosis": {
+      "total_run": 897,
+      "error_sources": {
+        "AMBIGUOUS": 165,
+        "NOISY_STRATEGY": 484,
+        "MISSED_VULN": 226,
+        "FALSE_PATTERN": 22
+      },
+      "top_cwes": {
+        "": 519,
+        "struct-array": 235,
+        "CWE-120": 67,
+        "CWE-484": 27,
+        "CWE-416": 13,
+        "CWE-190": 12,
+        "struct-cast": 11,
+        "CWE-704": 4,
+        "CWE-22": 4,
+        "CWE-119": 3
+      },
+      "conflict_patterns": {
+        "SPLIT_DISAGREEMENT": 348,
+        "SINGLE_HIGH_OUTLIER": 495,
+        "SINGLE_LOW_OUTLIER": 54
+      }
+    },
+    "repair": {
+      "total_attempted": 897,
+      "patches_generated": 897,
+      "success_rate": 1.0
+    },
+    "task_score_analysis": {
+      "task1_score": {
+        "mean": 0.2973,
+        "max": 0.8338,
+        "min": 0.095,
+        "nonzero": 1019
+      },
+      "task2_score": {
+        "mean": 0.9578,
+        "max": 0.9997,
+        "min": 0.2056,
+        "nonzero": 1019
+      },
+      "task3_score": {
+        "mean": 0.0312,
+        "max": 1.0,
+        "min": 0.0,
+        "nonzero": 146
+      },
+      "task4_score": {
+        "mean": 0.417,
+        "max": 1.0,
+        "min": 0.0,
+        "nonzero": 1014
+      }
+    },
+    "strategy_distribution": {
+      "heuristic": 511,
+      "all_lines": 508
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "n": 371843,
+  "brier": 0.192038969079304,
+  "ece": 0.3342519133075223,
+  "mce": 0.5605990755957246,
+  "n_bins": 10,
+  "reliability_bins": [
+    {
+      "bin": 0,
+      "lo": 0.0,
+      "hi": 0.1,
+      "n": 110826,
+      "mean_V": 0.0249,
+      "pos_rate": 0.0825,
+      "gap": 0.0576
+    },
+    {
+      "bin": 1,
+      "lo": 0.1,
+      "hi": 0.2,
+      "n": 483,
+      "mean_V": 0.1425,
+      "pos_rate": 0.2381,
+      "gap": 0.0956
+    },
+    {
+      "bin": 2,
+      "lo": 0.2,
+      "hi": 0.3,
+      "n": 2439,
+      "mean_V": 0.2658,
+      "pos_rate": 0.0377,
+      "gap": 0.228
+    },
+    {
+      "bin": 3,
+      "lo": 0.3,
+      "hi": 0.4,
+      "n": 18804,
+      "mean_V": 0.3612,
+      "pos_rate": 0.0359,
+      "gap": 0.3253
+    },
+    {
+      "bin": 4,
+      "lo": 0.4,
+      "hi": 0.5,
+      "n": 127647,
+      "mean_V": 0.4598,
+      "pos_rate": 0.0272,
+      "gap": 0.4326
+    },
+    {
+      "bin": 5,
+      "lo": 0.5,
+      "hi": 0.6,
+      "n": 106756,
+      "mean_V": 0.5378,
+      "pos_rate": 0.0393,
+      "gap": 0.4985
+    },
+    {
+      "bin": 6,
+      "lo": 0.6,
+      "hi": 0.7,
+      "n": 4868,
+      "mean_V": 0.6171,
+      "pos_rate": 0.0565,
+      "gap": 0.5606
+    },
+    {
+      "bin": 7,
+      "lo": 0.7,
+      "hi": 0.8,
+      "n": 20,
+      "mean_V": 0.7267,
+      "pos_rate": 0.3,
+      "gap": 0.4267
+    },
+    {
+      "bin": 8,
+      "lo": 0.8,
+      "hi": 0.9,
+      "n": 0,
+      "mean_V": null,
+      "pos_rate": null,
+      "gap": null
+    },
+    {
+      "bin": 9,
+      "lo": 0.9,
+      "hi": 1.0,
+      "n": 0,
+      "mean_V": null,
+      "pos_rate": null,
+      "gap": null
+    }
+  ],
+  "aurc": 0.40474756756109886,
+  "risk_coverage": [
+    {
+      "coverage": 0.02,
+      "risk": 0.3703,
+      "kept": 7437
+    },
+    {
+      "coverage": 0.04,
+      "risk": 0.2384,
+      "kept": 14874
+    },
+    {
+      "coverage": 0.06,
+      "risk": 0.2058,
+      "kept": 22311
+    },
+    {
+      "coverage": 0.08,
+      "risk": 0.178,
+      "kept": 29747
+    },
+    {
+      "coverage": 0.1,
+      "risk": 0.1576,
+      "kept": 37184
+    },
+    {
+      "coverage": 0.12,
+      "risk": 0.1429,
+      "kept": 44621
+    },
+    {
+      "coverage": 0.14,
+      "risk": 0.1303,
+      "kept": 52058
+    },
+    {
+      "coverage": 0.16,
+      "risk": 0.1195,
+      "kept": 59495
+    },
+    {
+      "coverage": 0.18,
+      "risk": 0.111,
+      "kept": 66932
+    },
+    {
+      "coverage": 0.2,
+      "risk": 0.1045,
+      "kept": 74369
+    },
+    {
+      "coverage": 0.22,
+      "risk": 0.099,
+      "kept": 81805
+    },
+    {
+      "coverage": 0.24,
+      "risk": 0.0948,
+      "kept": 89242
+    },
+    {
+      "coverage": 0.26,
+      "risk": 0.093,
+      "kept": 96679
+    },
+    {
+      "coverage": 0.28,
+      "risk": 0.1053,
+      "kept": 104116
+    },
+    {
+      "coverage": 0.3,
+      "risk": 0.1107,
+      "kept": 111553
+    },
+    {
+      "coverage": 0.32,
+      "risk": 0.1437,
+      "kept": 118990
+    },
+    {
+      "coverage": 0.34,
+      "risk": 0.1876,
+      "kept": 126427
+    },
+    {
+      "coverage": 0.36,
+      "risk": 0.2271,
+      "kept": 133863
+    },
+    {
+      "coverage": 0.38,
+      "risk": 0.264,
+      "kept": 141300
+    },
+    {
+      "coverage": 0.4,
+      "risk": 0.2979,
+      "kept": 148737
+    },
+    {
+      "coverage": 0.42,
+      "risk": 0.3289,
+      "kept": 156174
+    },
+    {
+      "coverage": 0.44,
+      "risk": 0.3573,
+      "kept": 163611
+    },
+    {
+      "coverage": 0.46,
+      "risk": 0.3839,
+      "kept": 171048
+    },
+    {
+      "coverage": 0.48,
+      "risk": 0.4083,
+      "kept": 178485
+    },
+    {
+      "coverage": 0.5,
+      "risk": 0.4306,
+      "kept": 185922
+    },
+    {
+      "coverage": 0.52,
+      "risk": 0.4511,
+      "kept": 193358
+    },
+    {
+      "coverage": 0.54,
+      "risk": 0.4701,
+      "kept": 200795
+    },
+    {
+      "coverage": 0.56,
+      "risk": 0.488,
+      "kept": 208232
+    },
+    {
+      "coverage": 0.58,
+      "risk": 0.5048,
+      "kept": 215669
+    },
+    {
+      "coverage": 0.6,
+      "risk": 0.5201,
+      "kept": 223106
+    },
+    {
+      "coverage": 0.62,
+      "risk": 0.5346,
+      "kept": 230543
+    },
+    {
+      "coverage": 0.64,
+      "risk": 0.5483,
+      "kept": 237980
+    },
+    {
+      "coverage": 0.66,
+      "risk": 0.5611,
+      "kept": 245416
+    },
+    {
+      "coverage": 0.68,
+      "risk": 0.5732,
+      "kept": 252853
+    },
+    {
+      "coverage": 0.7,
+      "risk": 0.5845,
+      "kept": 260290
+    },
+    {
+      "coverage": 0.72,
+      "risk": 0.5953,
+      "kept": 267727
+    },
+    {
+      "coverage": 0.74,
+      "risk": 0.6056,
+      "kept": 275164
+    },
+    {
+      "coverage": 0.76,
+      "risk": 0.6153,
+      "kept": 282601
+    },
+    {
+      "coverage": 0.78,
+      "risk": 0.6248,
+      "kept": 290038
+    },
+    {
+      "coverage": 0.8,
+      "risk": 0.6333,
+      "kept": 297474
+    },
+    {
+      "coverage": 0.82,
+      "risk": 0.6418,
+      "kept": 304911
+    },
+    {
+      "coverage": 0.84,
+      "risk": 0.6498,
+      "kept": 312348
+    },
+    {
+      "coverage": 0.86,
+      "risk": 0.6576,
+      "kept": 319785
+    },
+    {
+      "coverage": 0.88,
+      "risk": 0.6651,
+      "kept": 327222
+    },
+    {
+      "coverage": 0.9,
+      "risk": 0.6723,
+      "kept": 334659
+    },
+    {
+      "coverage": 0.92,
+      "risk": 0.679,
+      "kept": 342096
+    },
+    {
+      "coverage": 0.94,
+      "risk": 0.6854,
+      "kept": 349532
+    },
+    {
+      "coverage": 0.96,
+      "risk": 0.6915,
+      "kept": 356969
+    },
+    {
+      "coverage": 0.98,
+      "risk": 0.6972,
+      "kept": 364406
+    },
+    {
+      "coverage": 1.0,
+      "risk": 0.7027,
+      "kept": 371843
+    }
+  ],
+  "alc_operating_point": {
+    "trustworthy_n": 99864,
+    "untrustworthy_n": 271979,
+    "coverage_trustworthy": 0.2686,
+    "acc_trustworthy": 0.9035,
+    "acc_untrustworthy": 0.0747,
+    "err_trustworthy": 0.0965,
+    "err_untrustworthy": 0.9253
+  }
+}

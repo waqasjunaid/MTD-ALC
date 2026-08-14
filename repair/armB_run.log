@@ -1,0 +1,2186 @@
+nohup: 忽略输入
+Model config (must match Arm A): llama3.1:70b @ http://localhost:11434  temp=0.2  max_tokens=2048
+Include CWE mitigation catalogue: True
+2026-07-30 17:46:11,270 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 17:48:16,130 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 17:48:16,131 [INFO] [ArmB-Stage1-Fix] Response received: 590 chars
+[129] OK real patch -> patches_armB/129.c  (1 done)
+2026-07-30 17:48:16,141 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 17:55:09,681 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 17:55:09,681 [INFO] [ArmB-Stage1-Fix] Response received: 3059 chars
+[153] OK real patch -> patches_armB/153.c  (2 done)
+2026-07-30 17:55:09,692 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 17:58:05,862 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 17:58:05,863 [INFO] [ArmB-Stage1-Fix] Response received: 1657 chars
+[167] OK real patch -> patches_armB/167.c  (3 done)
+2026-07-30 17:58:05,872 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:05:37,887 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:05:37,887 [INFO] [ArmB-Stage1-Fix] Response received: 3286 chars
+[191] OK real patch -> patches_armB/191.c  (4 done)
+2026-07-30 18:05:37,898 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:07:09,351 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:07:09,352 [INFO] [ArmB-Stage1-Fix] Response received: 763 chars
+[203] OK real patch -> patches_armB/203.c  (5 done)
+2026-07-30 18:07:09,363 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:11:42,492 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:11:42,493 [INFO] [ArmB-Stage1-Fix] Response received: 2229 chars
+[250] OK real patch -> patches_armB/250.c  (6 done)
+2026-07-30 18:11:42,502 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:12:46,837 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:12:46,838 [INFO] [ArmB-Stage1-Fix] Response received: 455 chars
+[278] OK real patch -> patches_armB/278.c  (7 done)
+2026-07-30 18:12:46,848 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:17:32,038 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:17:32,039 [INFO] [ArmB-Stage1-Fix] Response received: 1838 chars
+[287] OK real patch -> patches_armB/287.c  (8 done)
+2026-07-30 18:17:32,048 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:18:46,481 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:18:46,481 [INFO] [ArmB-Stage1-Fix] Response received: 598 chars
+[291] OK real patch -> patches_armB/291.c  (9 done)
+2026-07-30 18:18:46,492 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:21:46,265 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:21:46,265 [INFO] [ArmB-Stage1-Fix] Response received: 1056 chars
+[307] OK real patch -> patches_armB/307.c  (10 done)
+2026-07-30 18:21:46,274 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:22:38,605 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:22:38,606 [INFO] [ArmB-Stage1-Fix] Response received: 451 chars
+[311] OK real patch -> patches_armB/311.c  (11 done)
+2026-07-30 18:22:38,614 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:23:09,525 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:23:09,526 [INFO] [ArmB-Stage1-Fix] Response received: 275 chars
+[352] OK real patch -> patches_armB/352.c  (12 done)
+2026-07-30 18:23:09,536 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:25:15,192 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:25:15,193 [INFO] [ArmB-Stage1-Fix] Response received: 909 chars
+[367] OK real patch -> patches_armB/367.c  (13 done)
+2026-07-30 18:25:15,203 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:27:09,116 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:27:09,117 [INFO] [ArmB-Stage1-Fix] Response received: 1049 chars
+[378] OK real patch -> patches_armB/378.c  (14 done)
+2026-07-30 18:27:09,126 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:29:53,311 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:29:53,312 [INFO] [ArmB-Stage1-Fix] Response received: 1197 chars
+[390] OK real patch -> patches_armB/390.c  (15 done)
+2026-07-30 18:29:53,322 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:31:40,317 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:31:40,317 [INFO] [ArmB-Stage1-Fix] Response received: 921 chars
+[410] OK real patch -> patches_armB/410.c  (16 done)
+2026-07-30 18:31:40,328 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:35:32,709 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:35:32,709 [INFO] [ArmB-Stage1-Fix] Response received: 1707 chars
+[462] OK real patch -> patches_armB/462.c  (17 done)
+2026-07-30 18:35:32,719 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:37:07,663 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:37:07,664 [INFO] [ArmB-Stage1-Fix] Response received: 783 chars
+[499] OK real patch -> patches_armB/499.c  (18 done)
+2026-07-30 18:37:07,672 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:39:20,834 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:39:20,844 [INFO] [ArmB-Stage1-Fix] Response received: 996 chars
+[562] OK real patch -> patches_armB/562.c  (19 done)
+2026-07-30 18:39:20,852 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:40:56,275 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:40:56,276 [INFO] [ArmB-Stage1-Fix] Response received: 587 chars
+[608] OK real patch -> patches_armB/608.c  (20 done)
+2026-07-30 18:40:56,286 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:45:22,676 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:45:22,677 [INFO] [ArmB-Stage1-Fix] Response received: 1876 chars
+[615] OK real patch -> patches_armB/615.c  (21 done)
+2026-07-30 18:45:22,688 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:46:17,539 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:46:17,540 [INFO] [ArmB-Stage1-Fix] Response received: 425 chars
+[617] OK real patch -> patches_armB/617.c  (22 done)
+2026-07-30 18:46:17,549 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:48:29,587 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:48:29,588 [INFO] [ArmB-Stage1-Fix] Response received: 1120 chars
+[735] OK real patch -> patches_armB/735.c  (23 done)
+2026-07-30 18:48:29,598 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:50:13,085 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:50:13,085 [INFO] [ArmB-Stage1-Fix] Response received: 850 chars
+[764] OK real patch -> patches_armB/764.c  (24 done)
+2026-07-30 18:50:13,096 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:55:22,042 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:55:22,042 [INFO] [ArmB-Stage1-Fix] Response received: 2351 chars
+[768] OK real patch -> patches_armB/768.c  (25 done)
+2026-07-30 18:55:22,052 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 18:57:37,787 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 18:57:37,788 [INFO] [ArmB-Stage1-Fix] Response received: 1405 chars
+[916] OK real patch -> patches_armB/916.c  (26 done)
+2026-07-30 18:57:37,798 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:03:13,633 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:03:13,633 [INFO] [ArmB-Stage1-Fix] Response received: 3086 chars
+[933] OK real patch -> patches_armB/933.c  (27 done)
+2026-07-30 19:03:13,644 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:06:05,902 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:06:05,903 [INFO] [ArmB-Stage1-Fix] Response received: 1607 chars
+[951] OK real patch -> patches_armB/951.c  (28 done)
+2026-07-30 19:06:05,913 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:08:50,850 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:08:50,850 [INFO] [ArmB-Stage1-Fix] Response received: 1436 chars
+[955] OK real patch -> patches_armB/955.c  (29 done)
+2026-07-30 19:08:50,861 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:16:00,372 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:16:00,372 [INFO] [ArmB-Stage1-Fix] Response received: 3386 chars
+[972] OK real patch -> patches_armB/972.c  (30 done)
+2026-07-30 19:16:00,382 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:23:10,072 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:23:10,072 [INFO] [ArmB-Stage1-Fix] Response received: 2193 chars
+[1014] OK real patch -> patches_armB/1014.c  (31 done)
+2026-07-30 19:23:10,082 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:25:23,921 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:25:23,921 [INFO] [ArmB-Stage1-Fix] Response received: 1010 chars
+[1022] OK real patch -> patches_armB/1022.c  (32 done)
+2026-07-30 19:25:23,932 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:26:15,543 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:26:15,544 [INFO] [ArmB-Stage1-Fix] Response received: 384 chars
+[1034] OK real patch -> patches_armB/1034.c  (33 done)
+2026-07-30 19:26:15,553 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:27:08,262 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:27:08,262 [INFO] [ArmB-Stage1-Fix] Response received: 456 chars
+[1041] OK real patch -> patches_armB/1041.c  (34 done)
+2026-07-30 19:27:08,272 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:29:03,250 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:29:03,251 [INFO] [ArmB-Stage1-Fix] Response received: 1027 chars
+[1051] OK real patch -> patches_armB/1051.c  (35 done)
+2026-07-30 19:29:03,261 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:30:49,495 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:30:49,495 [INFO] [ArmB-Stage1-Fix] Response received: 832 chars
+[1071] OK real patch -> patches_armB/1071.c  (36 done)
+2026-07-30 19:30:49,504 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:32:33,972 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:32:33,972 [INFO] [ArmB-Stage1-Fix] Response received: 882 chars
+[1076] OK real patch -> patches_armB/1076.c  (37 done)
+2026-07-30 19:32:33,982 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:34:29,351 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:34:29,351 [INFO] [ArmB-Stage1-Fix] Response received: 1057 chars
+[1153] OK real patch -> patches_armB/1153.c  (38 done)
+2026-07-30 19:34:29,362 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:37:52,029 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:37:52,030 [INFO] [ArmB-Stage1-Fix] Response received: 1421 chars
+[1173] OK real patch -> patches_armB/1173.c  (39 done)
+2026-07-30 19:37:52,040 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:41:18,249 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:41:18,250 [INFO] [ArmB-Stage1-Fix] Response received: 1814 chars
+[1188] OK real patch -> patches_armB/1188.c  (40 done)
+2026-07-30 19:41:18,260 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:47:24,570 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:47:24,571 [INFO] [ArmB-Stage1-Fix] Response received: 3096 chars
+[1239] OK real patch -> patches_armB/1239.c  (41 done)
+2026-07-30 19:47:24,581 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:49:54,725 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:49:54,725 [INFO] [ArmB-Stage1-Fix] Response received: 1398 chars
+[1263] OK real patch -> patches_armB/1263.c  (42 done)
+2026-07-30 19:49:54,736 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:51:00,435 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:51:00,435 [INFO] [ArmB-Stage1-Fix] Response received: 692 chars
+[1283] OK real patch -> patches_armB/1283.c  (43 done)
+2026-07-30 19:51:00,444 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:51:53,182 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:51:53,182 [INFO] [ArmB-Stage1-Fix] Response received: 496 chars
+[1288] OK real patch -> patches_armB/1288.c  (44 done)
+2026-07-30 19:51:53,192 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:53:51,443 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:53:51,443 [INFO] [ArmB-Stage1-Fix] Response received: 1062 chars
+[1291] OK real patch -> patches_armB/1291.c  (45 done)
+2026-07-30 19:53:51,453 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:57:12,933 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:57:12,933 [INFO] [ArmB-Stage1-Fix] Response received: 1545 chars
+[1328] OK real patch -> patches_armB/1328.c  (46 done)
+2026-07-30 19:57:12,943 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 19:58:20,681 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 19:58:20,682 [INFO] [ArmB-Stage1-Fix] Response received: 688 chars
+[1374] OK real patch -> patches_armB/1374.c  (47 done)
+2026-07-30 19:58:20,691 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:03:09,331 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:03:09,332 [INFO] [ArmB-Stage1-Fix] Response received: 2130 chars
+[1386] OK real patch -> patches_armB/1386.c  (48 done)
+2026-07-30 20:03:09,341 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:04:14,623 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:04:14,623 [INFO] [ArmB-Stage1-Fix] Response received: 569 chars
+[1393] OK real patch -> patches_armB/1393.c  (49 done)
+2026-07-30 20:04:14,634 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:05:18,871 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:05:18,872 [INFO] [ArmB-Stage1-Fix] Response received: 584 chars
+[1404] OK real patch -> patches_armB/1404.c  (50 done)
+2026-07-30 20:05:18,881 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:08:45,190 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:08:45,191 [INFO] [ArmB-Stage1-Fix] Response received: 1432 chars
+[1409] OK real patch -> patches_armB/1409.c  (51 done)
+2026-07-30 20:08:45,201 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:09:39,023 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:09:39,023 [INFO] [ArmB-Stage1-Fix] Response received: 468 chars
+[1480] OK real patch -> patches_armB/1480.c  (52 done)
+2026-07-30 20:09:39,034 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:10:29,515 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:10:29,516 [INFO] [ArmB-Stage1-Fix] Response received: 481 chars
+[1517] OK real patch -> patches_armB/1517.c  (53 done)
+2026-07-30 20:10:29,524 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:11:50,026 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:11:50,027 [INFO] [ArmB-Stage1-Fix] Response received: 676 chars
+[1542] OK real patch -> patches_armB/1542.c  (54 done)
+2026-07-30 20:11:50,037 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:13:49,144 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:13:49,145 [INFO] [ArmB-Stage1-Fix] Response received: 1005 chars
+[1550] OK real patch -> patches_armB/1550.c  (55 done)
+2026-07-30 20:13:49,155 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:16:26,069 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:16:26,070 [INFO] [ArmB-Stage1-Fix] Response received: 1082 chars
+[1654] OK real patch -> patches_armB/1654.c  (56 done)
+2026-07-30 20:16:26,080 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:17:41,070 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:17:41,071 [INFO] [ArmB-Stage1-Fix] Response received: 676 chars
+[1714] OK real patch -> patches_armB/1714.c  (57 done)
+2026-07-30 20:17:41,081 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:18:30,050 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:18:30,051 [INFO] [ArmB-Stage1-Fix] Response received: 422 chars
+[1767] OK real patch -> patches_armB/1767.c  (58 done)
+2026-07-30 20:18:30,058 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:19:15,559 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:19:15,560 [INFO] [ArmB-Stage1-Fix] Response received: 385 chars
+[1810] OK real patch -> patches_armB/1810.c  (59 done)
+2026-07-30 20:19:15,582 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:26:02,481 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:26:02,482 [INFO] [ArmB-Stage1-Fix] Response received: 3619 chars
+[1829] OK real patch -> patches_armB/1829.c  (60 done)
+2026-07-30 20:26:02,489 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:26:41,719 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:26:41,719 [INFO] [ArmB-Stage1-Fix] Response received: 366 chars
+[1830] OK real patch -> patches_armB/1830.c  (61 done)
+2026-07-30 20:26:41,729 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:29:20,554 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:29:20,555 [INFO] [ArmB-Stage1-Fix] Response received: 1496 chars
+[1855] OK real patch -> patches_armB/1855.c  (62 done)
+2026-07-30 20:29:20,565 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:31:08,075 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:31:08,076 [INFO] [ArmB-Stage1-Fix] Response received: 978 chars
+[1900] OK real patch -> patches_armB/1900.c  (63 done)
+2026-07-30 20:31:08,085 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:33:40,597 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:33:40,598 [INFO] [ArmB-Stage1-Fix] Response received: 1460 chars
+[1915] OK real patch -> patches_armB/1915.c  (64 done)
+2026-07-30 20:33:40,608 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:34:10,669 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:34:10,669 [INFO] [ArmB-Stage1-Fix] Response received: 257 chars
+[1927] OK real patch -> patches_armB/1927.c  (65 done)
+2026-07-30 20:34:10,677 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:36:54,324 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:36:54,324 [INFO] [ArmB-Stage1-Fix] Response received: 1313 chars
+[1941] OK real patch -> patches_armB/1941.c  (66 done)
+2026-07-30 20:36:54,332 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:39:12,546 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:39:12,547 [INFO] [ArmB-Stage1-Fix] Response received: 1136 chars
+[1959] OK real patch -> patches_armB/1959.c  (67 done)
+2026-07-30 20:39:12,557 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:40:22,779 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:40:22,780 [INFO] [ArmB-Stage1-Fix] Response received: 758 chars
+[1962] OK real patch -> patches_armB/1962.c  (68 done)
+2026-07-30 20:40:22,788 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:45:18,473 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:45:18,474 [INFO] [ArmB-Stage1-Fix] Response received: 2041 chars
+[2026] OK real patch -> patches_armB/2026.c  (69 done)
+2026-07-30 20:45:18,484 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:53:07,444 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:53:07,445 [INFO] [ArmB-Stage1-Fix] Response received: 3665 chars
+[2040] OK real patch -> patches_armB/2040.c  (70 done)
+2026-07-30 20:53:07,455 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:55:44,406 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:55:44,406 [INFO] [ArmB-Stage1-Fix] Response received: 1007 chars
+[2089] OK real patch -> patches_armB/2089.c  (71 done)
+2026-07-30 20:55:44,416 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:56:52,961 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:56:52,962 [INFO] [ArmB-Stage1-Fix] Response received: 631 chars
+[2119] OK real patch -> patches_armB/2119.c  (72 done)
+2026-07-30 20:56:52,969 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:57:44,747 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:57:44,748 [INFO] [ArmB-Stage1-Fix] Response received: 453 chars
+[2167] OK real patch -> patches_armB/2167.c  (73 done)
+2026-07-30 20:57:44,757 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 20:58:37,760 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 20:58:37,761 [INFO] [ArmB-Stage1-Fix] Response received: 446 chars
+[2227] OK real patch -> patches_armB/2227.c  (74 done)
+2026-07-30 20:58:37,769 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:01:53,886 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:01:53,887 [INFO] [ArmB-Stage1-Fix] Response received: 1807 chars
+[2253] OK real patch -> patches_armB/2253.c  (75 done)
+2026-07-30 21:01:53,895 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:02:45,847 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:02:45,848 [INFO] [ArmB-Stage1-Fix] Response received: 447 chars
+[2283] OK real patch -> patches_armB/2283.c  (76 done)
+2026-07-30 21:02:45,858 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:08:38,931 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:08:38,932 [INFO] [ArmB-Stage1-Fix] Response received: 2875 chars
+[2323] OK real patch -> patches_armB/2323.c  (77 done)
+2026-07-30 21:08:38,942 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:11:19,071 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:11:19,072 [INFO] [ArmB-Stage1-Fix] Response received: 1265 chars
+[2370] OK real patch -> patches_armB/2370.c  (78 done)
+2026-07-30 21:11:19,082 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:11:53,156 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:11:53,157 [INFO] [ArmB-Stage1-Fix] Response received: 352 chars
+[2410] OK real patch -> patches_armB/2410.c  (79 done)
+2026-07-30 21:11:53,167 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:13:15,387 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:13:15,387 [INFO] [ArmB-Stage1-Fix] Response received: 739 chars
+[2478] OK real patch -> patches_armB/2478.c  (80 done)
+2026-07-30 21:13:15,398 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:13:47,013 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:13:47,014 [INFO] [ArmB-Stage1-Fix] Response received: 326 chars
+[2560] OK real patch -> patches_armB/2560.c  (81 done)
+2026-07-30 21:13:47,024 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:15:11,833 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:15:11,834 [INFO] [ArmB-Stage1-Fix] Response received: 651 chars
+[2573] OK real patch -> patches_armB/2573.c  (82 done)
+2026-07-30 21:15:11,844 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:20:04,819 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:20:04,820 [INFO] [ArmB-Stage1-Fix] Response received: 2276 chars
+[2587] OK real patch -> patches_armB/2587.c  (83 done)
+2026-07-30 21:20:04,830 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:21:23,109 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:21:23,110 [INFO] [ArmB-Stage1-Fix] Response received: 760 chars
+[2657] OK real patch -> patches_armB/2657.c  (84 done)
+2026-07-30 21:21:23,120 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:21:59,424 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:21:59,425 [INFO] [ArmB-Stage1-Fix] Response received: 292 chars
+[2734] OK real patch -> patches_armB/2734.c  (85 done)
+2026-07-30 21:21:59,434 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:22:34,250 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:22:34,250 [INFO] [ArmB-Stage1-Fix] Response received: 320 chars
+[2737] OK real patch -> patches_armB/2737.c  (86 done)
+2026-07-30 21:22:34,260 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:25:06,679 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:25:06,679 [INFO] [ArmB-Stage1-Fix] Response received: 1149 chars
+[2762] OK real patch -> patches_armB/2762.c  (87 done)
+2026-07-30 21:25:06,689 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:26:14,875 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:26:14,876 [INFO] [ArmB-Stage1-Fix] Response received: 619 chars
+[2780] OK real patch -> patches_armB/2780.c  (88 done)
+2026-07-30 21:26:14,883 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:27:32,315 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:27:32,315 [INFO] [ArmB-Stage1-Fix] Response received: 653 chars
+[2797] OK real patch -> patches_armB/2797.c  (89 done)
+2026-07-30 21:27:32,325 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:31:01,926 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:31:01,926 [INFO] [ArmB-Stage1-Fix] Response received: 1468 chars
+[2818] OK real patch -> patches_armB/2818.c  (90 done)
+2026-07-30 21:31:01,937 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:35:02,222 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:35:02,223 [INFO] [ArmB-Stage1-Fix] Response received: 1677 chars
+[2858] OK real patch -> patches_armB/2858.c  (91 done)
+2026-07-30 21:35:02,233 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:36:28,676 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:36:28,677 [INFO] [ArmB-Stage1-Fix] Response received: 862 chars
+[3026] OK real patch -> patches_armB/3026.c  (92 done)
+2026-07-30 21:36:28,685 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:40:40,007 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:40:40,007 [INFO] [ArmB-Stage1-Fix] Response received: 1554 chars
+[3029] OK real patch -> patches_armB/3029.c  (93 done)
+2026-07-30 21:40:40,018 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:42:20,023 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:42:20,024 [INFO] [ArmB-Stage1-Fix] Response received: 833 chars
+[3122] OK real patch -> patches_armB/3122.c  (94 done)
+2026-07-30 21:42:20,033 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:43:36,005 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:43:36,006 [INFO] [ArmB-Stage1-Fix] Response received: 726 chars
+[3137] OK real patch -> patches_armB/3137.c  (95 done)
+2026-07-30 21:43:36,015 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:45:47,216 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:45:47,216 [INFO] [ArmB-Stage1-Fix] Response received: 1098 chars
+[3138] OK real patch -> patches_armB/3138.c  (96 done)
+2026-07-30 21:45:47,226 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:47:03,358 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:47:03,359 [INFO] [ArmB-Stage1-Fix] Response received: 636 chars
+[3149] OK real patch -> patches_armB/3149.c  (97 done)
+2026-07-30 21:47:03,367 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:48:23,951 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:48:23,951 [INFO] [ArmB-Stage1-Fix] Response received: 738 chars
+[3158] OK real patch -> patches_armB/3158.c  (98 done)
+2026-07-30 21:48:23,961 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:50:22,046 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:50:22,046 [INFO] [ArmB-Stage1-Fix] Response received: 1003 chars
+[3176] OK real patch -> patches_armB/3176.c  (99 done)
+2026-07-30 21:50:22,054 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:52:32,628 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:52:32,629 [INFO] [ArmB-Stage1-Fix] Response received: 1138 chars
+[3190] OK real patch -> patches_armB/3190.c  (100 done)
+2026-07-30 21:52:32,639 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 21:53:56,025 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 21:53:56,026 [INFO] [ArmB-Stage1-Fix] Response received: 802 chars
+[3195] OK real patch -> patches_armB/3195.c  (101 done)
+2026-07-30 21:53:56,036 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:01:10,551 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:01:10,552 [INFO] [ArmB-Stage1-Fix] Response received: 3567 chars
+[3199] OK real patch -> patches_armB/3199.c  (102 done)
+2026-07-30 22:01:10,561 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:04:20,848 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:04:20,848 [INFO] [ArmB-Stage1-Fix] Response received: 1475 chars
+[3260] OK real patch -> patches_armB/3260.c  (103 done)
+2026-07-30 22:04:20,858 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:05:11,747 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:05:11,747 [INFO] [ArmB-Stage1-Fix] Response received: 385 chars
+[3337] OK real patch -> patches_armB/3337.c  (104 done)
+2026-07-30 22:05:11,758 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:12:54,953 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:12:54,955 [INFO] [ArmB-Stage1-Fix] Response received: 3263 chars
+[3338] OK real patch -> patches_armB/3338.c  (105 done)
+2026-07-30 22:12:54,976 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:15:30,311 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:15:30,312 [INFO] [ArmB-Stage1-Fix] Response received: 1182 chars
+[3341] OK real patch -> patches_armB/3341.c  (106 done)
+2026-07-30 22:15:30,321 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:18:12,902 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:18:12,902 [INFO] [ArmB-Stage1-Fix] Response received: 1237 chars
+[3422] OK real patch -> patches_armB/3422.c  (107 done)
+2026-07-30 22:18:12,912 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:19:04,227 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:19:04,228 [INFO] [ArmB-Stage1-Fix] Response received: 505 chars
+[3448] OK real patch -> patches_armB/3448.c  (108 done)
+2026-07-30 22:19:04,236 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:19:48,849 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:19:48,850 [INFO] [ArmB-Stage1-Fix] Response received: 371 chars
+[3496] OK real patch -> patches_armB/3496.c  (109 done)
+2026-07-30 22:19:48,860 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:22:35,319 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:22:35,319 [INFO] [ArmB-Stage1-Fix] Response received: 1160 chars
+[3561] OK real patch -> patches_armB/3561.c  (110 done)
+2026-07-30 22:22:35,327 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:23:25,701 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:23:25,701 [INFO] [ArmB-Stage1-Fix] Response received: 500 chars
+[3635] OK real patch -> patches_armB/3635.c  (111 done)
+2026-07-30 22:23:25,712 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:24:41,119 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:24:41,120 [INFO] [ArmB-Stage1-Fix] Response received: 681 chars
+[3660] OK real patch -> patches_armB/3660.c  (112 done)
+2026-07-30 22:24:41,130 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:26:27,149 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:26:27,149 [INFO] [ArmB-Stage1-Fix] Response received: 861 chars
+[3704] OK real patch -> patches_armB/3704.c  (113 done)
+2026-07-30 22:26:27,160 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:27:28,239 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:27:28,239 [INFO] [ArmB-Stage1-Fix] Response received: 479 chars
+[3741] OK real patch -> patches_armB/3741.c  (114 done)
+2026-07-30 22:27:28,249 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:28:35,092 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:28:35,092 [INFO] [ArmB-Stage1-Fix] Response received: 673 chars
+[3792] OK real patch -> patches_armB/3792.c  (115 done)
+2026-07-30 22:28:35,102 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:31:01,243 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:31:01,243 [INFO] [ArmB-Stage1-Fix] Response received: 1308 chars
+[3808] OK real patch -> patches_armB/3808.c  (116 done)
+2026-07-30 22:31:01,254 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:34:39,014 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:34:39,014 [INFO] [ArmB-Stage1-Fix] Response received: 1474 chars
+[3866] OK real patch -> patches_armB/3866.c  (117 done)
+2026-07-30 22:34:39,022 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:37:54,810 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:37:54,811 [INFO] [ArmB-Stage1-Fix] Response received: 1899 chars
+[3916] OK real patch -> patches_armB/3916.c  (118 done)
+2026-07-30 22:37:54,820 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:41:52,295 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:41:52,296 [INFO] [ArmB-Stage1-Fix] Response received: 1617 chars
+[4029] OK real patch -> patches_armB/4029.c  (119 done)
+2026-07-30 22:41:52,307 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:43:02,228 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:43:02,229 [INFO] [ArmB-Stage1-Fix] Response received: 558 chars
+[4116] OK real patch -> patches_armB/4116.c  (120 done)
+2026-07-30 22:43:02,239 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:43:54,889 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:43:54,889 [INFO] [ArmB-Stage1-Fix] Response received: 530 chars
+[4122] OK real patch -> patches_armB/4122.c  (121 done)
+2026-07-30 22:43:54,898 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:49:11,773 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:49:11,773 [INFO] [ArmB-Stage1-Fix] Response received: 2174 chars
+[4129] OK real patch -> patches_armB/4129.c  (122 done)
+2026-07-30 22:49:11,784 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:51:55,482 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:51:55,482 [INFO] [ArmB-Stage1-Fix] Response received: 1236 chars
+[4188] OK real patch -> patches_armB/4188.c  (123 done)
+2026-07-30 22:51:55,502 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:53:05,763 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:53:05,763 [INFO] [ArmB-Stage1-Fix] Response received: 663 chars
+[4199] OK real patch -> patches_armB/4199.c  (124 done)
+2026-07-30 22:53:05,776 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:53:52,856 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:53:52,857 [INFO] [ArmB-Stage1-Fix] Response received: 397 chars
+[4201] OK real patch -> patches_armB/4201.c  (125 done)
+2026-07-30 22:53:52,866 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:56:34,337 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:56:34,338 [INFO] [ArmB-Stage1-Fix] Response received: 1686 chars
+[4217] OK real patch -> patches_armB/4217.c  (126 done)
+2026-07-30 22:56:34,348 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 22:59:44,777 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 22:59:44,777 [INFO] [ArmB-Stage1-Fix] Response received: 1357 chars
+[4252] OK real patch -> patches_armB/4252.c  (127 done)
+2026-07-30 22:59:44,787 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:03:03,180 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:03:03,181 [INFO] [ArmB-Stage1-Fix] Response received: 1189 chars
+[4266] OK real patch -> patches_armB/4266.c  (128 done)
+2026-07-30 23:03:03,191 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:04:26,050 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:04:26,051 [INFO] [ArmB-Stage1-Fix] Response received: 766 chars
+[4294] OK real patch -> patches_armB/4294.c  (129 done)
+2026-07-30 23:04:26,060 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:05:33,487 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:05:33,487 [INFO] [ArmB-Stage1-Fix] Response received: 645 chars
+[4299] OK real patch -> patches_armB/4299.c  (130 done)
+2026-07-30 23:05:33,497 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:06:19,638 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:06:19,639 [INFO] [ArmB-Stage1-Fix] Response received: 391 chars
+[4338] OK real patch -> patches_armB/4338.c  (131 done)
+2026-07-30 23:06:19,660 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:07:14,319 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:07:14,320 [INFO] [ArmB-Stage1-Fix] Response received: 531 chars
+[4484] OK real patch -> patches_armB/4484.c  (132 done)
+2026-07-30 23:07:14,328 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:12:30,490 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:12:30,491 [INFO] [ArmB-Stage1-Fix] Response received: 2158 chars
+[4485] OK real patch -> patches_armB/4485.c  (133 done)
+2026-07-30 23:12:30,500 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:13:27,758 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:13:27,759 [INFO] [ArmB-Stage1-Fix] Response received: 452 chars
+[4506] OK real patch -> patches_armB/4506.c  (134 done)
+2026-07-30 23:13:27,768 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:16:20,831 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:16:20,832 [INFO] [ArmB-Stage1-Fix] Response received: 1075 chars
+[4516] OK real patch -> patches_armB/4516.c  (135 done)
+2026-07-30 23:16:20,840 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:18:11,442 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:18:11,443 [INFO] [ArmB-Stage1-Fix] Response received: 1101 chars
+[4546] OK real patch -> patches_armB/4546.c  (136 done)
+2026-07-30 23:18:11,453 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:19:08,074 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:19:08,075 [INFO] [ArmB-Stage1-Fix] Response received: 498 chars
+[4567] OK real patch -> patches_armB/4567.c  (137 done)
+2026-07-30 23:19:08,085 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:21:12,458 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:21:12,458 [INFO] [ArmB-Stage1-Fix] Response received: 888 chars
+[4613] OK real patch -> patches_armB/4613.c  (138 done)
+2026-07-30 23:21:12,468 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:25:07,953 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:25:07,954 [INFO] [ArmB-Stage1-Fix] Response received: 1955 chars
+[4629] OK real patch -> patches_armB/4629.c  (139 done)
+2026-07-30 23:25:07,962 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:26:09,535 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:26:09,536 [INFO] [ArmB-Stage1-Fix] Response received: 467 chars
+[4644] OK real patch -> patches_armB/4644.c  (140 done)
+2026-07-30 23:26:09,544 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:28:01,167 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:28:01,167 [INFO] [ArmB-Stage1-Fix] Response received: 871 chars
+[4660] OK real patch -> patches_armB/4660.c  (141 done)
+2026-07-30 23:28:01,177 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:30:47,866 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:30:47,866 [INFO] [ArmB-Stage1-Fix] Response received: 1319 chars
+[4732] OK real patch -> patches_armB/4732.c  (142 done)
+2026-07-30 23:30:47,876 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:33:20,695 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:33:20,695 [INFO] [ArmB-Stage1-Fix] Response received: 1596 chars
+[4811] OK real patch -> patches_armB/4811.c  (143 done)
+2026-07-30 23:33:20,704 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:35:54,206 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:35:54,207 [INFO] [ArmB-Stage1-Fix] Response received: 1382 chars
+[4824] OK real patch -> patches_armB/4824.c  (144 done)
+2026-07-30 23:35:54,217 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:36:35,207 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:36:35,208 [INFO] [ArmB-Stage1-Fix] Response received: 331 chars
+[4836] OK real patch -> patches_armB/4836.c  (145 done)
+2026-07-30 23:36:35,216 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:37:32,557 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:37:32,557 [INFO] [ArmB-Stage1-Fix] Response received: 427 chars
+[4946] OK real patch -> patches_armB/4946.c  (146 done)
+2026-07-30 23:37:32,567 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:39:29,969 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:39:29,970 [INFO] [ArmB-Stage1-Fix] Response received: 1165 chars
+[5002] OK real patch -> patches_armB/5002.c  (147 done)
+2026-07-30 23:39:29,979 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:42:06,485 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:42:06,486 [INFO] [ArmB-Stage1-Fix] Response received: 1245 chars
+[5018] OK real patch -> patches_armB/5018.c  (148 done)
+2026-07-30 23:42:06,496 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:43:20,889 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:43:20,889 [INFO] [ArmB-Stage1-Fix] Response received: 636 chars
+[5072] OK real patch -> patches_armB/5072.c  (149 done)
+2026-07-30 23:43:20,900 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:44:26,127 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:44:26,127 [INFO] [ArmB-Stage1-Fix] Response received: 509 chars
+[5139] OK real patch -> patches_armB/5139.c  (150 done)
+2026-07-30 23:44:26,137 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:50:29,680 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:50:29,680 [INFO] [ArmB-Stage1-Fix] Response received: 2602 chars
+[5158] OK real patch -> patches_armB/5158.c  (151 done)
+2026-07-30 23:50:29,691 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:51:01,794 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:51:01,795 [INFO] [ArmB-Stage1-Fix] Response received: 292 chars
+[5215] OK real patch -> patches_armB/5215.c  (152 done)
+2026-07-30 23:51:01,805 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:54:27,798 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:54:27,798 [INFO] [ArmB-Stage1-Fix] Response received: 1969 chars
+[5285] OK real patch -> patches_armB/5285.c  (153 done)
+2026-07-30 23:54:27,807 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:57:15,291 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:57:15,291 [INFO] [ArmB-Stage1-Fix] Response received: 1423 chars
+[5355] OK real patch -> patches_armB/5355.c  (154 done)
+2026-07-30 23:57:15,301 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-30 23:59:02,434 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-30 23:59:02,435 [INFO] [ArmB-Stage1-Fix] Response received: 832 chars
+[5366] OK real patch -> patches_armB/5366.c  (155 done)
+2026-07-30 23:59:02,445 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:00:44,905 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:00:44,905 [INFO] [ArmB-Stage1-Fix] Response received: 1028 chars
+[5478] OK real patch -> patches_armB/5478.c  (156 done)
+2026-07-31 00:00:44,915 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:08:07,087 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:08:07,087 [INFO] [ArmB-Stage1-Fix] Response received: 3179 chars
+[5528] OK real patch -> patches_armB/5528.c  (157 done)
+2026-07-31 00:08:07,096 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:09:50,299 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:09:50,299 [INFO] [ArmB-Stage1-Fix] Response received: 816 chars
+[5538] OK real patch -> patches_armB/5538.c  (158 done)
+2026-07-31 00:09:50,309 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:11:12,859 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:11:12,860 [INFO] [ArmB-Stage1-Fix] Response received: 533 chars
+[5542] OK real patch -> patches_armB/5542.c  (159 done)
+2026-07-31 00:11:12,870 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:12:38,522 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:12:38,523 [INFO] [ArmB-Stage1-Fix] Response received: 647 chars
+[5543] OK real patch -> patches_armB/5543.c  (160 done)
+2026-07-31 00:12:38,533 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:13:57,093 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:13:57,093 [INFO] [ArmB-Stage1-Fix] Response received: 686 chars
+[5584] OK real patch -> patches_armB/5584.c  (161 done)
+2026-07-31 00:13:57,101 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:15:07,127 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:15:07,127 [INFO] [ArmB-Stage1-Fix] Response received: 597 chars
+[5638] OK real patch -> patches_armB/5638.c  (162 done)
+2026-07-31 00:15:07,137 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:16:57,533 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:16:57,533 [INFO] [ArmB-Stage1-Fix] Response received: 993 chars
+[5655] OK real patch -> patches_armB/5655.c  (163 done)
+2026-07-31 00:16:57,541 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:18:39,439 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:18:39,439 [INFO] [ArmB-Stage1-Fix] Response received: 769 chars
+[5656] OK real patch -> patches_armB/5656.c  (164 done)
+2026-07-31 00:18:39,447 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:19:07,965 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:19:07,965 [INFO] [ArmB-Stage1-Fix] Response received: 278 chars
+[5686] OK real patch -> patches_armB/5686.c  (165 done)
+2026-07-31 00:19:07,976 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:20:20,017 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:20:20,018 [INFO] [ArmB-Stage1-Fix] Response received: 613 chars
+[5718] OK real patch -> patches_armB/5718.c  (166 done)
+2026-07-31 00:20:20,025 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:21:18,953 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:21:18,954 [INFO] [ArmB-Stage1-Fix] Response received: 508 chars
+[5731] OK real patch -> patches_armB/5731.c  (167 done)
+2026-07-31 00:21:18,963 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:22:53,230 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:22:53,231 [INFO] [ArmB-Stage1-Fix] Response received: 816 chars
+[5739] OK real patch -> patches_armB/5739.c  (168 done)
+2026-07-31 00:22:53,240 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:24:39,443 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:24:39,443 [INFO] [ArmB-Stage1-Fix] Response received: 974 chars
+[5854] OK real patch -> patches_armB/5854.c  (169 done)
+2026-07-31 00:24:39,451 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:28:19,702 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:28:19,703 [INFO] [ArmB-Stage1-Fix] Response received: 1597 chars
+[5859] OK real patch -> patches_armB/5859.c  (170 done)
+2026-07-31 00:28:19,712 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:29:46,281 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:29:46,281 [INFO] [ArmB-Stage1-Fix] Response received: 815 chars
+[5876] OK real patch -> patches_armB/5876.c  (171 done)
+2026-07-31 00:29:46,291 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:30:17,415 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:30:17,415 [INFO] [ArmB-Stage1-Fix] Response received: 250 chars
+[5966] OK real patch -> patches_armB/5966.c  (172 done)
+2026-07-31 00:30:17,425 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:31:34,877 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:31:34,877 [INFO] [ArmB-Stage1-Fix] Response received: 646 chars
+[5989] OK real patch -> patches_armB/5989.c  (173 done)
+2026-07-31 00:31:34,888 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:33:06,703 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:33:06,704 [INFO] [ArmB-Stage1-Fix] Response received: 767 chars
+[6039] OK real patch -> patches_armB/6039.c  (174 done)
+2026-07-31 00:33:06,714 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:34:49,166 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:34:49,166 [INFO] [ArmB-Stage1-Fix] Response received: 931 chars
+[6041] OK real patch -> patches_armB/6041.c  (175 done)
+2026-07-31 00:34:49,176 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:38:49,413 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:38:49,413 [INFO] [ArmB-Stage1-Fix] Response received: 1750 chars
+[6089] OK real patch -> patches_armB/6089.c  (176 done)
+2026-07-31 00:38:49,421 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:39:25,806 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:39:25,807 [INFO] [ArmB-Stage1-Fix] Response received: 349 chars
+[6104] OK real patch -> patches_armB/6104.c  (177 done)
+2026-07-31 00:39:25,817 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:40:06,316 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:40:06,316 [INFO] [ArmB-Stage1-Fix] Response received: 360 chars
+[6163] OK real patch -> patches_armB/6163.c  (178 done)
+2026-07-31 00:40:06,327 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:41:27,665 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:41:27,666 [INFO] [ArmB-Stage1-Fix] Response received: 624 chars
+[6188] OK real patch -> patches_armB/6188.c  (179 done)
+2026-07-31 00:41:27,676 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:42:59,144 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:42:59,144 [INFO] [ArmB-Stage1-Fix] Response received: 777 chars
+[6254] OK real patch -> patches_armB/6254.c  (180 done)
+2026-07-31 00:42:59,154 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:43:31,217 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:43:31,218 [INFO] [ArmB-Stage1-Fix] Response received: 349 chars
+[6260] OK real patch -> patches_armB/6260.c  (181 done)
+2026-07-31 00:43:31,226 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:47:17,196 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:47:17,197 [INFO] [ArmB-Stage1-Fix] Response received: 1711 chars
+[6271] OK real patch -> patches_armB/6271.c  (182 done)
+2026-07-31 00:47:17,204 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:48:07,900 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:48:07,901 [INFO] [ArmB-Stage1-Fix] Response received: 464 chars
+[6290] OK real patch -> patches_armB/6290.c  (183 done)
+2026-07-31 00:48:07,911 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:50:11,646 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:50:11,647 [INFO] [ArmB-Stage1-Fix] Response received: 1028 chars
+[6291] OK real patch -> patches_armB/6291.c  (184 done)
+2026-07-31 00:50:11,656 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:50:44,911 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:50:44,911 [INFO] [ArmB-Stage1-Fix] Response received: 343 chars
+[6304] OK real patch -> patches_armB/6304.c  (185 done)
+2026-07-31 00:50:44,921 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:52:41,263 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:52:41,264 [INFO] [ArmB-Stage1-Fix] Response received: 1026 chars
+[6307] OK real patch -> patches_armB/6307.c  (186 done)
+2026-07-31 00:52:41,273 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:55:14,250 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:55:14,251 [INFO] [ArmB-Stage1-Fix] Response received: 1350 chars
+[6399] OK real patch -> patches_armB/6399.c  (187 done)
+2026-07-31 00:55:14,260 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 00:56:53,174 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 00:56:53,175 [INFO] [ArmB-Stage1-Fix] Response received: 964 chars
+[6402] OK real patch -> patches_armB/6402.c  (188 done)
+2026-07-31 00:56:53,186 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:01:11,988 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:01:11,989 [INFO] [ArmB-Stage1-Fix] Response received: 1533 chars
+[6429] OK real patch -> patches_armB/6429.c  (189 done)
+2026-07-31 01:01:11,999 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:03:04,733 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:03:04,733 [INFO] [ArmB-Stage1-Fix] Response received: 822 chars
+[6475] OK real patch -> patches_armB/6475.c  (190 done)
+2026-07-31 01:03:04,743 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:10:37,097 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:10:37,098 [INFO] [ArmB-Stage1-Fix] Response received: 2939 chars
+[6488] OK real patch -> patches_armB/6488.c  (191 done)
+2026-07-31 01:10:37,106 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:11:43,856 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:11:43,857 [INFO] [ArmB-Stage1-Fix] Response received: 500 chars
+[6629] OK real patch -> patches_armB/6629.c  (192 done)
+2026-07-31 01:11:43,867 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:14:42,568 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:14:42,568 [INFO] [ArmB-Stage1-Fix] Response received: 1261 chars
+[6643] OK real patch -> patches_armB/6643.c  (193 done)
+2026-07-31 01:14:42,578 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:17:33,127 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:17:33,127 [INFO] [ArmB-Stage1-Fix] Response received: 1573 chars
+[6703] OK real patch -> patches_armB/6703.c  (194 done)
+2026-07-31 01:17:33,138 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:18:08,615 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:18:08,615 [INFO] [ArmB-Stage1-Fix] Response received: 325 chars
+[6731] OK real patch -> patches_armB/6731.c  (195 done)
+2026-07-31 01:18:08,624 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:19:54,117 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:19:54,118 [INFO] [ArmB-Stage1-Fix] Response received: 810 chars
+[6766] OK real patch -> patches_armB/6766.c  (196 done)
+2026-07-31 01:19:54,128 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:20:54,423 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:20:54,423 [INFO] [ArmB-Stage1-Fix] Response received: 641 chars
+[6797] OK real patch -> patches_armB/6797.c  (197 done)
+2026-07-31 01:20:54,433 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:24:54,904 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:24:54,904 [INFO] [ArmB-Stage1-Fix] Response received: 2242 chars
+[6864] OK real patch -> patches_armB/6864.c  (198 done)
+2026-07-31 01:24:54,915 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:25:57,462 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:25:57,462 [INFO] [ArmB-Stage1-Fix] Response received: 563 chars
+[6872] OK real patch -> patches_armB/6872.c  (199 done)
+2026-07-31 01:25:57,472 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:31:16,164 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:31:16,165 [INFO] [ArmB-Stage1-Fix] Response received: 1952 chars
+[6923] OK real patch -> patches_armB/6923.c  (200 done)
+2026-07-31 01:31:16,174 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:32:33,182 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:32:33,183 [INFO] [ArmB-Stage1-Fix] Response received: 742 chars
+[7003] OK real patch -> patches_armB/7003.c  (201 done)
+2026-07-31 01:32:33,192 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:33:53,859 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:33:53,859 [INFO] [ArmB-Stage1-Fix] Response received: 619 chars
+[7033] OK real patch -> patches_armB/7033.c  (202 done)
+2026-07-31 01:33:53,869 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:36:17,821 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:36:17,822 [INFO] [ArmB-Stage1-Fix] Response received: 943 chars
+[7060] OK real patch -> patches_armB/7060.c  (203 done)
+2026-07-31 01:36:17,831 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:38:57,711 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:38:57,711 [INFO] [ArmB-Stage1-Fix] Response received: 1169 chars
+[7062] OK real patch -> patches_armB/7062.c  (204 done)
+2026-07-31 01:38:57,721 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:41:39,450 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:41:39,450 [INFO] [ArmB-Stage1-Fix] Response received: 1060 chars
+[7106] OK real patch -> patches_armB/7106.c  (205 done)
+2026-07-31 01:41:39,460 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:42:38,033 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:42:38,033 [INFO] [ArmB-Stage1-Fix] Response received: 465 chars
+[7111] OK real patch -> patches_armB/7111.c  (206 done)
+2026-07-31 01:42:38,043 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:46:44,454 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:46:44,454 [INFO] [ArmB-Stage1-Fix] Response received: 2192 chars
+[7134] OK real patch -> patches_armB/7134.c  (207 done)
+2026-07-31 01:46:44,464 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:47:51,182 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:47:51,183 [INFO] [ArmB-Stage1-Fix] Response received: 481 chars
+[7140] OK real patch -> patches_armB/7140.c  (208 done)
+2026-07-31 01:47:51,193 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:48:54,561 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:48:54,561 [INFO] [ArmB-Stage1-Fix] Response received: 457 chars
+[7242] OK real patch -> patches_armB/7242.c  (209 done)
+2026-07-31 01:48:54,569 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:51:14,879 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:51:14,880 [INFO] [ArmB-Stage1-Fix] Response received: 1143 chars
+[7291] OK real patch -> patches_armB/7291.c  (210 done)
+2026-07-31 01:51:14,889 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:54:51,973 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:54:51,974 [INFO] [ArmB-Stage1-Fix] Response received: 1753 chars
+[7321] OK real patch -> patches_armB/7321.c  (211 done)
+2026-07-31 01:54:51,984 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:56:48,559 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:56:48,560 [INFO] [ArmB-Stage1-Fix] Response received: 819 chars
+[7355] OK real patch -> patches_armB/7355.c  (212 done)
+2026-07-31 01:56:48,570 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:57:57,574 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:57:57,575 [INFO] [ArmB-Stage1-Fix] Response received: 624 chars
+[7374] OK real patch -> patches_armB/7374.c  (213 done)
+2026-07-31 01:57:57,585 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:59:01,177 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:59:01,178 [INFO] [ArmB-Stage1-Fix] Response received: 510 chars
+[7415] OK real patch -> patches_armB/7415.c  (214 done)
+2026-07-31 01:59:01,188 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 01:59:54,793 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 01:59:54,793 [INFO] [ArmB-Stage1-Fix] Response received: 427 chars
+[7422] OK real patch -> patches_armB/7422.c  (215 done)
+2026-07-31 01:59:54,803 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:01:04,267 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:01:04,268 [INFO] [ArmB-Stage1-Fix] Response received: 682 chars
+[7426] OK real patch -> patches_armB/7426.c  (216 done)
+2026-07-31 02:01:04,277 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:01:38,557 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:01:38,557 [INFO] [ArmB-Stage1-Fix] Response received: 276 chars
+[7590] OK real patch -> patches_armB/7590.c  (217 done)
+2026-07-31 02:01:38,569 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:03:25,917 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:03:25,917 [INFO] [ArmB-Stage1-Fix] Response received: 743 chars
+[7614] OK real patch -> patches_armB/7614.c  (218 done)
+2026-07-31 02:03:25,925 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:04:23,559 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:04:23,560 [INFO] [ArmB-Stage1-Fix] Response received: 517 chars
+[7623] OK real patch -> patches_armB/7623.c  (219 done)
+2026-07-31 02:04:23,570 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:07:33,313 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:07:33,313 [INFO] [ArmB-Stage1-Fix] Response received: 1401 chars
+[7639] OK real patch -> patches_armB/7639.c  (220 done)
+2026-07-31 02:07:33,324 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:15:04,257 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:15:04,258 [INFO] [ArmB-Stage1-Fix] Response received: 3020 chars
+[7649] OK real patch -> patches_armB/7649.c  (221 done)
+2026-07-31 02:15:04,268 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:16:03,205 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:16:03,206 [INFO] [ArmB-Stage1-Fix] Response received: 480 chars
+[7659] OK real patch -> patches_armB/7659.c  (222 done)
+2026-07-31 02:16:03,215 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:18:23,602 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:18:23,602 [INFO] [ArmB-Stage1-Fix] Response received: 987 chars
+[7675] OK real patch -> patches_armB/7675.c  (223 done)
+2026-07-31 02:18:23,612 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:28:01,240 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:28:01,241 [INFO] [ArmB-Stage1-Fix] Response received: 3115 chars
+[7683] OK real patch -> patches_armB/7683.c  (224 done)
+2026-07-31 02:28:01,250 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:29:08,106 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:29:08,120 [INFO] [ArmB-Stage1-Fix] Response received: 518 chars
+[7704] OK real patch -> patches_armB/7704.c  (225 done)
+2026-07-31 02:29:08,135 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:31:32,906 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:31:32,907 [INFO] [ArmB-Stage1-Fix] Response received: 1004 chars
+[7729] OK real patch -> patches_armB/7729.c  (226 done)
+2026-07-31 02:31:32,914 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:32:14,911 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:32:14,912 [INFO] [ArmB-Stage1-Fix] Response received: 366 chars
+[7736] OK real patch -> patches_armB/7736.c  (227 done)
+2026-07-31 02:32:14,921 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:33:42,141 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:33:42,141 [INFO] [ArmB-Stage1-Fix] Response received: 595 chars
+[7813] OK real patch -> patches_armB/7813.c  (228 done)
+2026-07-31 02:33:42,152 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:34:42,644 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:34:42,645 [INFO] [ArmB-Stage1-Fix] Response received: 548 chars
+[7837] OK real patch -> patches_armB/7837.c  (229 done)
+2026-07-31 02:34:42,652 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:36:17,292 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:36:17,293 [INFO] [ArmB-Stage1-Fix] Response received: 703 chars
+[7881] OK real patch -> patches_armB/7881.c  (230 done)
+2026-07-31 02:36:17,303 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:37:12,750 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:37:12,750 [INFO] [ArmB-Stage1-Fix] Response received: 477 chars
+[7914] OK real patch -> patches_armB/7914.c  (231 done)
+2026-07-31 02:37:12,759 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:38:37,701 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:38:37,701 [INFO] [ArmB-Stage1-Fix] Response received: 549 chars
+[7960] OK real patch -> patches_armB/7960.c  (232 done)
+2026-07-31 02:38:37,711 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:39:18,413 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:39:18,413 [INFO] [ArmB-Stage1-Fix] Response received: 378 chars
+[7981] OK real patch -> patches_armB/7981.c  (233 done)
+2026-07-31 02:39:18,423 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:40:27,344 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:40:27,345 [INFO] [ArmB-Stage1-Fix] Response received: 513 chars
+[7987] OK real patch -> patches_armB/7987.c  (234 done)
+2026-07-31 02:40:27,356 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:41:31,947 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:41:31,948 [INFO] [ArmB-Stage1-Fix] Response received: 381 chars
+[7997] OK real patch -> patches_armB/7997.c  (235 done)
+2026-07-31 02:41:31,968 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:42:37,205 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:42:37,206 [INFO] [ArmB-Stage1-Fix] Response received: 448 chars
+[8103] OK real patch -> patches_armB/8103.c  (236 done)
+2026-07-31 02:42:37,216 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:43:39,016 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:43:39,016 [INFO] [ArmB-Stage1-Fix] Response received: 596 chars
+[8151] OK real patch -> patches_armB/8151.c  (237 done)
+2026-07-31 02:43:39,026 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:47:56,526 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:47:56,526 [INFO] [ArmB-Stage1-Fix] Response received: 2439 chars
+[8163] OK real patch -> patches_armB/8163.c  (238 done)
+2026-07-31 02:47:56,536 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:49:02,424 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:49:02,425 [INFO] [ArmB-Stage1-Fix] Response received: 674 chars
+[8210] OK real patch -> patches_armB/8210.c  (239 done)
+2026-07-31 02:49:02,435 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:49:35,875 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:49:35,875 [INFO] [ArmB-Stage1-Fix] Response received: 361 chars
+[8247] OK real patch -> patches_armB/8247.c  (240 done)
+2026-07-31 02:49:35,897 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:57:51,797 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:57:51,797 [INFO] [ArmB-Stage1-Fix] Response received: 4162 chars
+[8249] OK real patch -> patches_armB/8249.c  (241 done)
+2026-07-31 02:57:51,808 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 02:58:41,720 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 02:58:41,721 [INFO] [ArmB-Stage1-Fix] Response received: 475 chars
+[8260] OK real patch -> patches_armB/8260.c  (242 done)
+2026-07-31 02:58:41,731 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:04:50,969 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:04:50,980 [INFO] [ArmB-Stage1-Fix] Response received: 2676 chars
+[8262] OK real patch -> patches_armB/8262.c  (243 done)
+2026-07-31 03:04:50,989 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:06:39,783 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:06:39,783 [INFO] [ArmB-Stage1-Fix] Response received: 839 chars
+[8278] OK real patch -> patches_armB/8278.c  (244 done)
+2026-07-31 03:06:39,793 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:07:39,894 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:07:39,895 [INFO] [ArmB-Stage1-Fix] Response received: 551 chars
+[8310] OK real patch -> patches_armB/8310.c  (245 done)
+2026-07-31 03:07:39,905 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:12:59,359 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:12:59,359 [INFO] [ArmB-Stage1-Fix] Response received: 1871 chars
+[8313] OK real patch -> patches_armB/8313.c  (246 done)
+2026-07-31 03:12:59,370 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:14:25,761 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:14:25,761 [INFO] [ArmB-Stage1-Fix] Response received: 647 chars
+[8350] OK real patch -> patches_armB/8350.c  (247 done)
+2026-07-31 03:14:25,771 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:15:19,317 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:15:19,318 [INFO] [ArmB-Stage1-Fix] Response received: 377 chars
+[8419] OK real patch -> patches_armB/8419.c  (248 done)
+2026-07-31 03:15:19,328 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:16:04,041 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:16:04,042 [INFO] [ArmB-Stage1-Fix] Response received: 302 chars
+[8475] OK real patch -> patches_armB/8475.c  (249 done)
+2026-07-31 03:16:04,051 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:17:46,102 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:17:46,102 [INFO] [ArmB-Stage1-Fix] Response received: 843 chars
+[8545] OK real patch -> patches_armB/8545.c  (250 done)
+2026-07-31 03:17:46,112 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:26:37,097 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:26:37,098 [INFO] [ArmB-Stage1-Fix] Response received: 4457 chars
+[8552] OK real patch -> patches_armB/8552.c  (251 done)
+2026-07-31 03:26:37,108 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:30:50,287 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:30:50,287 [INFO] [ArmB-Stage1-Fix] Response received: 1543 chars
+[8623] OK real patch -> patches_armB/8623.c  (252 done)
+2026-07-31 03:30:50,296 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:33:13,793 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:33:13,794 [INFO] [ArmB-Stage1-Fix] Response received: 992 chars
+[8645] OK real patch -> patches_armB/8645.c  (253 done)
+2026-07-31 03:33:13,804 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:37:14,247 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:37:14,247 [INFO] [ArmB-Stage1-Fix] Response received: 1743 chars
+[8681] OK real patch -> patches_armB/8681.c  (254 done)
+2026-07-31 03:37:14,257 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:39:37,565 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:39:37,565 [INFO] [ArmB-Stage1-Fix] Response received: 1058 chars
+[8683] OK real patch -> patches_armB/8683.c  (255 done)
+2026-07-31 03:39:37,573 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:40:11,011 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:40:11,011 [INFO] [ArmB-Stage1-Fix] Response received: 339 chars
+[8701] OK real patch -> patches_armB/8701.c  (256 done)
+2026-07-31 03:40:11,021 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:42:28,038 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:42:28,038 [INFO] [ArmB-Stage1-Fix] Response received: 1061 chars
+[8706] OK real patch -> patches_armB/8706.c  (257 done)
+2026-07-31 03:42:28,046 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:45:37,131 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:45:37,131 [INFO] [ArmB-Stage1-Fix] Response received: 1809 chars
+[8746] OK real patch -> patches_armB/8746.c  (258 done)
+2026-07-31 03:45:37,141 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:47:44,723 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:47:44,723 [INFO] [ArmB-Stage1-Fix] Response received: 1070 chars
+[8770] OK real patch -> patches_armB/8770.c  (259 done)
+2026-07-31 03:47:44,733 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:54:23,768 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:54:23,769 [INFO] [ArmB-Stage1-Fix] Response received: 2517 chars
+[8802] OK real patch -> patches_armB/8802.c  (260 done)
+2026-07-31 03:54:23,777 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:55:20,455 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:55:20,456 [INFO] [ArmB-Stage1-Fix] Response received: 487 chars
+[8869] OK real patch -> patches_armB/8869.c  (261 done)
+2026-07-31 03:55:20,466 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 03:57:21,984 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 03:57:21,984 [INFO] [ArmB-Stage1-Fix] Response received: 962 chars
+[8896] OK real patch -> patches_armB/8896.c  (262 done)
+2026-07-31 03:57:21,992 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:01:57,966 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:01:57,967 [INFO] [ArmB-Stage1-Fix] Response received: 2554 chars
+[8933] OK real patch -> patches_armB/8933.c  (263 done)
+2026-07-31 04:01:57,975 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:03:41,409 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:03:41,409 [INFO] [ArmB-Stage1-Fix] Response received: 931 chars
+[8937] OK real patch -> patches_armB/8937.c  (264 done)
+2026-07-31 04:03:41,420 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:05:24,943 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:05:24,944 [INFO] [ArmB-Stage1-Fix] Response received: 726 chars
+[8992] OK real patch -> patches_armB/8992.c  (265 done)
+2026-07-31 04:05:24,954 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:07:25,269 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:07:25,269 [INFO] [ArmB-Stage1-Fix] Response received: 1110 chars
+[8998] OK real patch -> patches_armB/8998.c  (266 done)
+2026-07-31 04:07:25,279 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:10:09,845 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:10:09,846 [INFO] [ArmB-Stage1-Fix] Response received: 1367 chars
+[9021] OK real patch -> patches_armB/9021.c  (267 done)
+2026-07-31 04:10:09,856 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:16:53,295 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:16:53,295 [INFO] [ArmB-Stage1-Fix] Response received: 3052 chars
+[9081] OK real patch -> patches_armB/9081.c  (268 done)
+2026-07-31 04:16:53,306 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:18:35,818 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:18:35,818 [INFO] [ArmB-Stage1-Fix] Response received: 1009 chars
+[9128] OK real patch -> patches_armB/9128.c  (269 done)
+2026-07-31 04:18:35,828 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:21:00,591 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:21:00,591 [INFO] [ArmB-Stage1-Fix] Response received: 1055 chars
+[9129] OK real patch -> patches_armB/9129.c  (270 done)
+2026-07-31 04:21:00,602 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:24:00,923 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:24:00,923 [INFO] [ArmB-Stage1-Fix] Response received: 1322 chars
+[9168] OK real patch -> patches_armB/9168.c  (271 done)
+2026-07-31 04:24:00,933 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:26:36,952 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:26:36,952 [INFO] [ArmB-Stage1-Fix] Response received: 1381 chars
+[9247] OK real patch -> patches_armB/9247.c  (272 done)
+2026-07-31 04:26:36,960 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:27:30,362 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:27:30,362 [INFO] [ArmB-Stage1-Fix] Response received: 361 chars
+[9269] OK real patch -> patches_armB/9269.c  (273 done)
+2026-07-31 04:27:30,373 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:28:39,856 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:28:39,857 [INFO] [ArmB-Stage1-Fix] Response received: 668 chars
+[9284] OK real patch -> patches_armB/9284.c  (274 done)
+2026-07-31 04:28:39,868 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:30:05,564 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:30:05,565 [INFO] [ArmB-Stage1-Fix] Response received: 596 chars
+[9319] OK real patch -> patches_armB/9319.c  (275 done)
+2026-07-31 04:30:05,575 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:30:54,038 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:30:54,039 [INFO] [ArmB-Stage1-Fix] Response received: 421 chars
+[9327] OK real patch -> patches_armB/9327.c  (276 done)
+2026-07-31 04:30:54,048 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:35:35,395 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:35:35,395 [INFO] [ArmB-Stage1-Fix] Response received: 2189 chars
+[9386] OK real patch -> patches_armB/9386.c  (277 done)
+2026-07-31 04:35:35,404 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:39:00,955 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:39:00,956 [INFO] [ArmB-Stage1-Fix] Response received: 1378 chars
+[9410] OK real patch -> patches_armB/9410.c  (278 done)
+2026-07-31 04:39:00,966 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:41:02,436 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:41:02,437 [INFO] [ArmB-Stage1-Fix] Response received: 940 chars
+[9430] OK real patch -> patches_armB/9430.c  (279 done)
+2026-07-31 04:41:02,447 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:43:07,886 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:43:07,887 [INFO] [ArmB-Stage1-Fix] Response received: 982 chars
+[9481] OK real patch -> patches_armB/9481.c  (280 done)
+2026-07-31 04:43:07,897 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:44:55,959 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:44:55,959 [INFO] [ArmB-Stage1-Fix] Response received: 1082 chars
+[9489] OK real patch -> patches_armB/9489.c  (281 done)
+2026-07-31 04:44:55,969 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:46:35,574 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:46:35,575 [INFO] [ArmB-Stage1-Fix] Response received: 963 chars
+[9559] OK real patch -> patches_armB/9559.c  (282 done)
+2026-07-31 04:46:35,583 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:47:28,023 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:47:28,023 [INFO] [ArmB-Stage1-Fix] Response received: 362 chars
+[9603] OK real patch -> patches_armB/9603.c  (283 done)
+2026-07-31 04:47:28,034 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:51:11,157 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:51:11,158 [INFO] [ArmB-Stage1-Fix] Response received: 2026 chars
+[9661] OK real patch -> patches_armB/9661.c  (284 done)
+2026-07-31 04:51:11,165 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:52:19,276 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:52:19,276 [INFO] [ArmB-Stage1-Fix] Response received: 583 chars
+[9734] OK real patch -> patches_armB/9734.c  (285 done)
+2026-07-31 04:52:19,284 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:56:46,291 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:56:46,292 [INFO] [ArmB-Stage1-Fix] Response received: 1661 chars
+[9738] OK real patch -> patches_armB/9738.c  (286 done)
+2026-07-31 04:56:46,301 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:58:41,023 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:58:41,024 [INFO] [ArmB-Stage1-Fix] Response received: 738 chars
+[9745] OK real patch -> patches_armB/9745.c  (287 done)
+2026-07-31 04:58:41,032 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 04:59:46,302 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 04:59:46,303 [INFO] [ArmB-Stage1-Fix] Response received: 545 chars
+[9764] OK real patch -> patches_armB/9764.c  (288 done)
+2026-07-31 04:59:46,312 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:03:07,411 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:03:07,411 [INFO] [ArmB-Stage1-Fix] Response received: 1401 chars
+[9784] OK real patch -> patches_armB/9784.c  (289 done)
+2026-07-31 05:03:07,421 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:07:23,886 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:07:23,887 [INFO] [ArmB-Stage1-Fix] Response received: 1893 chars
+[9810] OK real patch -> patches_armB/9810.c  (290 done)
+2026-07-31 05:07:23,895 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:09:18,744 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:09:18,745 [INFO] [ArmB-Stage1-Fix] Response received: 1015 chars
+[9818] OK real patch -> patches_armB/9818.c  (291 done)
+2026-07-31 05:09:18,755 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:10:29,792 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:10:29,793 [INFO] [ArmB-Stage1-Fix] Response received: 566 chars
+[9819] OK real patch -> patches_armB/9819.c  (292 done)
+2026-07-31 05:10:29,801 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:12:16,336 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:12:16,336 [INFO] [ArmB-Stage1-Fix] Response received: 796 chars
+[9930] OK real patch -> patches_armB/9930.c  (293 done)
+2026-07-31 05:12:16,347 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:12:51,391 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:12:51,391 [INFO] [ArmB-Stage1-Fix] Response received: 340 chars
+[9936] OK real patch -> patches_armB/9936.c  (294 done)
+2026-07-31 05:12:51,401 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:20:50,543 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:20:50,544 [INFO] [ArmB-Stage1-Fix] Response received: 4208 chars
+[10094] OK real patch -> patches_armB/10094.c  (295 done)
+2026-07-31 05:20:50,554 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:25:03,833 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:25:03,834 [INFO] [ArmB-Stage1-Fix] Response received: 1322 chars
+[10115] OK real patch -> patches_armB/10115.c  (296 done)
+2026-07-31 05:25:03,844 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:26:28,878 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:26:28,878 [INFO] [ArmB-Stage1-Fix] Response received: 668 chars
+[10173] OK real patch -> patches_armB/10173.c  (297 done)
+2026-07-31 05:26:28,888 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:28:22,471 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:28:22,471 [INFO] [ArmB-Stage1-Fix] Response received: 976 chars
+[10207] OK real patch -> patches_armB/10207.c  (298 done)
+2026-07-31 05:28:22,481 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:28:59,940 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:28:59,941 [INFO] [ArmB-Stage1-Fix] Response received: 325 chars
+[10242] OK real patch -> patches_armB/10242.c  (299 done)
+2026-07-31 05:28:59,951 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:32:51,132 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:32:51,132 [INFO] [ArmB-Stage1-Fix] Response received: 2138 chars
+[10246] OK real patch -> patches_armB/10246.c  (300 done)
+2026-07-31 05:32:51,142 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:33:47,882 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:33:47,883 [INFO] [ArmB-Stage1-Fix] Response received: 384 chars
+[10271] OK real patch -> patches_armB/10271.c  (301 done)
+2026-07-31 05:33:47,890 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:40:40,343 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:40:40,343 [INFO] [ArmB-Stage1-Fix] Response received: 3855 chars
+[10327] OK real patch -> patches_armB/10327.c  (302 done)
+2026-07-31 05:40:40,353 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:43:02,519 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:43:02,520 [INFO] [ArmB-Stage1-Fix] Response received: 1350 chars
+[10335] OK real patch -> patches_armB/10335.c  (303 done)
+2026-07-31 05:43:02,530 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:44:02,633 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:44:02,634 [INFO] [ArmB-Stage1-Fix] Response received: 458 chars
+[10390] OK real patch -> patches_armB/10390.c  (304 done)
+2026-07-31 05:44:02,644 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:45:46,095 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:45:46,095 [INFO] [ArmB-Stage1-Fix] Response received: 1125 chars
+[10405] OK real patch -> patches_armB/10405.c  (305 done)
+2026-07-31 05:45:46,104 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:46:23,736 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:46:23,737 [INFO] [ArmB-Stage1-Fix] Response received: 332 chars
+[10421] OK real patch -> patches_armB/10421.c  (306 done)
+2026-07-31 05:46:23,750 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:46:55,974 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:46:55,974 [INFO] [ArmB-Stage1-Fix] Response received: 286 chars
+[10471] OK real patch -> patches_armB/10471.c  (307 done)
+2026-07-31 05:46:55,983 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:49:22,799 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:49:22,799 [INFO] [ArmB-Stage1-Fix] Response received: 1346 chars
+[10481] OK real patch -> patches_armB/10481.c  (308 done)
+2026-07-31 05:49:22,809 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:50:43,964 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:50:43,965 [INFO] [ArmB-Stage1-Fix] Response received: 677 chars
+[10505] OK real patch -> patches_armB/10505.c  (309 done)
+2026-07-31 05:50:43,975 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:52:05,027 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:52:05,027 [INFO] [ArmB-Stage1-Fix] Response received: 578 chars
+[10573] OK real patch -> patches_armB/10573.c  (310 done)
+2026-07-31 05:52:05,035 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:53:01,540 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:53:01,541 [INFO] [ArmB-Stage1-Fix] Response received: 505 chars
+[10610] OK real patch -> patches_armB/10610.c  (311 done)
+2026-07-31 05:53:01,551 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 05:59:46,398 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 05:59:46,398 [INFO] [ArmB-Stage1-Fix] Response received: 3219 chars
+[10655] OK real patch -> patches_armB/10655.c  (312 done)
+2026-07-31 05:59:46,408 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:02:02,110 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:02:02,110 [INFO] [ArmB-Stage1-Fix] Response received: 1262 chars
+[10735] OK real patch -> patches_armB/10735.c  (313 done)
+2026-07-31 06:02:02,121 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:04:50,894 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:04:50,895 [INFO] [ArmB-Stage1-Fix] Response received: 1281 chars
+[10772] OK real patch -> patches_armB/10772.c  (314 done)
+2026-07-31 06:04:50,904 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:06:01,323 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:06:01,324 [INFO] [ArmB-Stage1-Fix] Response received: 686 chars
+[10784] OK real patch -> patches_armB/10784.c  (315 done)
+2026-07-31 06:06:01,334 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:07:33,570 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:07:33,570 [INFO] [ArmB-Stage1-Fix] Response received: 893 chars
+[10839] OK real patch -> patches_armB/10839.c  (316 done)
+2026-07-31 06:07:33,578 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:08:47,530 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:08:47,531 [INFO] [ArmB-Stage1-Fix] Response received: 658 chars
+[10904] OK real patch -> patches_armB/10904.c  (317 done)
+2026-07-31 06:08:47,541 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:11:51,941 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:11:51,941 [INFO] [ArmB-Stage1-Fix] Response received: 1307 chars
+[10926] OK real patch -> patches_armB/10926.c  (318 done)
+2026-07-31 06:11:51,951 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:12:30,561 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:12:30,561 [INFO] [ArmB-Stage1-Fix] Response received: 349 chars
+[11001] OK real patch -> patches_armB/11001.c  (319 done)
+2026-07-31 06:12:30,569 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:15:44,822 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:15:44,823 [INFO] [ArmB-Stage1-Fix] Response received: 1471 chars
+[11111] OK real patch -> patches_armB/11111.c  (320 done)
+2026-07-31 06:15:44,833 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:16:38,083 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:16:38,084 [INFO] [ArmB-Stage1-Fix] Response received: 477 chars
+[11124] OK real patch -> patches_armB/11124.c  (321 done)
+2026-07-31 06:16:38,094 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:17:01,842 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:17:01,842 [INFO] [ArmB-Stage1-Fix] Response received: 223 chars
+[11182] OK real patch -> patches_armB/11182.c  (322 done)
+2026-07-31 06:17:01,853 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:18:33,349 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:18:33,349 [INFO] [ArmB-Stage1-Fix] Response received: 901 chars
+[11188] OK real patch -> patches_armB/11188.c  (323 done)
+2026-07-31 06:18:33,359 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:21:39,129 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:21:39,130 [INFO] [ArmB-Stage1-Fix] Response received: 1546 chars
+[11222] OK real patch -> patches_armB/11222.c  (324 done)
+2026-07-31 06:21:39,140 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:24:03,395 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:24:03,396 [INFO] [ArmB-Stage1-Fix] Response received: 1461 chars
+[11225] OK real patch -> patches_armB/11225.c  (325 done)
+2026-07-31 06:24:03,406 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:25:05,112 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:25:05,112 [INFO] [ArmB-Stage1-Fix] Response received: 530 chars
+[11234] OK real patch -> patches_armB/11234.c  (326 done)
+2026-07-31 06:25:05,121 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:26:24,415 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:26:24,415 [INFO] [ArmB-Stage1-Fix] Response received: 807 chars
+[11266] OK real patch -> patches_armB/11266.c  (327 done)
+2026-07-31 06:26:24,425 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:29:38,522 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:29:38,523 [INFO] [ArmB-Stage1-Fix] Response received: 1328 chars
+[11267] OK real patch -> patches_armB/11267.c  (328 done)
+2026-07-31 06:29:38,532 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:30:25,213 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:30:25,213 [INFO] [ArmB-Stage1-Fix] Response received: 481 chars
+[11336] OK real patch -> patches_armB/11336.c  (329 done)
+2026-07-31 06:30:25,221 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:31:25,266 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:31:25,267 [INFO] [ArmB-Stage1-Fix] Response received: 530 chars
+[11428] OK real patch -> patches_armB/11428.c  (330 done)
+2026-07-31 06:31:25,278 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:32:21,588 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:32:21,589 [INFO] [ArmB-Stage1-Fix] Response received: 583 chars
+[11431] OK real patch -> patches_armB/11431.c  (331 done)
+2026-07-31 06:32:21,597 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:34:45,200 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:34:45,201 [INFO] [ArmB-Stage1-Fix] Response received: 990 chars
+[11435] OK real patch -> patches_armB/11435.c  (332 done)
+2026-07-31 06:34:45,211 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:35:37,335 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:35:37,335 [INFO] [ArmB-Stage1-Fix] Response received: 492 chars
+[11459] OK real patch -> patches_armB/11459.c  (333 done)
+2026-07-31 06:35:37,345 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:38:17,323 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:38:17,323 [INFO] [ArmB-Stage1-Fix] Response received: 2027 chars
+[11533] OK real patch -> patches_armB/11533.c  (334 done)
+2026-07-31 06:38:17,333 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:39:44,611 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:39:44,611 [INFO] [ArmB-Stage1-Fix] Response received: 612 chars
+[11554] OK real patch -> patches_armB/11554.c  (335 done)
+2026-07-31 06:39:44,621 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:45:21,740 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:45:21,741 [INFO] [ArmB-Stage1-Fix] Response received: 2085 chars
+[11712] OK real patch -> patches_armB/11712.c  (336 done)
+2026-07-31 06:45:21,752 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:46:40,636 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:46:40,637 [INFO] [ArmB-Stage1-Fix] Response received: 504 chars
+[11743] OK real patch -> patches_armB/11743.c  (337 done)
+2026-07-31 06:46:40,648 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:52:23,502 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:52:23,503 [INFO] [ArmB-Stage1-Fix] Response received: 3084 chars
+[11780] OK real patch -> patches_armB/11780.c  (338 done)
+2026-07-31 06:52:23,513 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:56:14,518 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:56:14,519 [INFO] [ArmB-Stage1-Fix] Response received: 1548 chars
+[11783] OK real patch -> patches_armB/11783.c  (339 done)
+2026-07-31 06:56:14,529 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:57:32,347 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:57:32,347 [INFO] [ArmB-Stage1-Fix] Response received: 821 chars
+[11791] OK real patch -> patches_armB/11791.c  (340 done)
+2026-07-31 06:57:32,357 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 06:59:40,303 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 06:59:40,303 [INFO] [ArmB-Stage1-Fix] Response received: 1295 chars
+[11850] OK real patch -> patches_armB/11850.c  (341 done)
+2026-07-31 06:59:40,313 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:01:21,003 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:01:21,004 [INFO] [ArmB-Stage1-Fix] Response received: 769 chars
+[11860] OK real patch -> patches_armB/11860.c  (342 done)
+2026-07-31 07:01:21,014 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:02:21,391 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:02:21,391 [INFO] [ArmB-Stage1-Fix] Response received: 567 chars
+[11879] OK real patch -> patches_armB/11879.c  (343 done)
+2026-07-31 07:02:21,401 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:10:46,421 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:10:46,422 [INFO] [ArmB-Stage1-Fix] Response received: 4860 chars
+[11885] OK real patch -> patches_armB/11885.c  (344 done)
+2026-07-31 07:10:46,429 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:11:30,379 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:11:30,379 [INFO] [ArmB-Stage1-Fix] Response received: 451 chars
+[11912] OK real patch -> patches_armB/11912.c  (345 done)
+2026-07-31 07:11:30,392 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:13:10,315 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:13:10,316 [INFO] [ArmB-Stage1-Fix] Response received: 673 chars
+[11920] OK real patch -> patches_armB/11920.c  (346 done)
+2026-07-31 07:13:10,337 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:17:32,100 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:17:32,101 [INFO] [ArmB-Stage1-Fix] Response received: 2137 chars
+[11933] OK real patch -> patches_armB/11933.c  (347 done)
+2026-07-31 07:17:32,111 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:18:08,396 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:18:08,397 [INFO] [ArmB-Stage1-Fix] Response received: 309 chars
+[11957] OK real patch -> patches_armB/11957.c  (348 done)
+2026-07-31 07:18:08,406 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:18:47,399 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:18:47,399 [INFO] [ArmB-Stage1-Fix] Response received: 325 chars
+[11964] OK real patch -> patches_armB/11964.c  (349 done)
+2026-07-31 07:18:47,407 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:20:01,259 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:20:01,259 [INFO] [ArmB-Stage1-Fix] Response received: 659 chars
+[11976] OK real patch -> patches_armB/11976.c  (350 done)
+2026-07-31 07:20:01,269 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:25:14,306 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:25:14,307 [INFO] [ArmB-Stage1-Fix] Response received: 2904 chars
+[12046] OK real patch -> patches_armB/12046.c  (351 done)
+2026-07-31 07:25:14,314 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:26:26,530 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:26:26,531 [INFO] [ArmB-Stage1-Fix] Response received: 608 chars
+[12083] OK real patch -> patches_armB/12083.c  (352 done)
+2026-07-31 07:26:26,540 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:33:51,917 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:33:51,917 [INFO] [ArmB-Stage1-Fix] Response received: 3286 chars
+[12208] OK real patch -> patches_armB/12208.c  (353 done)
+2026-07-31 07:33:51,925 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:36:30,478 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:36:30,479 [INFO] [ArmB-Stage1-Fix] Response received: 1669 chars
+[12218] OK real patch -> patches_armB/12218.c  (354 done)
+2026-07-31 07:36:30,487 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:39:49,511 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:39:49,512 [INFO] [ArmB-Stage1-Fix] Response received: 1532 chars
+[12317] OK real patch -> patches_armB/12317.c  (355 done)
+2026-07-31 07:39:49,522 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:40:36,851 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:40:36,851 [INFO] [ArmB-Stage1-Fix] Response received: 454 chars
+[12339] OK real patch -> patches_armB/12339.c  (356 done)
+2026-07-31 07:40:36,860 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:45:32,909 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:45:32,909 [INFO] [ArmB-Stage1-Fix] Response received: 2249 chars
+[12403] OK real patch -> patches_armB/12403.c  (357 done)
+2026-07-31 07:45:32,918 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:46:57,621 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:46:57,622 [INFO] [ArmB-Stage1-Fix] Response received: 895 chars
+[12495] OK real patch -> patches_armB/12495.c  (358 done)
+2026-07-31 07:46:57,630 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:48:40,423 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:48:40,423 [INFO] [ArmB-Stage1-Fix] Response received: 803 chars
+[12499] OK real patch -> patches_armB/12499.c  (359 done)
+2026-07-31 07:48:40,433 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:50:23,368 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:50:23,368 [INFO] [ArmB-Stage1-Fix] Response received: 712 chars
+[12549] OK real patch -> patches_armB/12549.c  (360 done)
+2026-07-31 07:50:23,378 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:54:33,948 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:54:33,949 [INFO] [ArmB-Stage1-Fix] Response received: 1730 chars
+[12550] OK real patch -> patches_armB/12550.c  (361 done)
+2026-07-31 07:54:33,957 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:55:45,874 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:55:45,875 [INFO] [ArmB-Stage1-Fix] Response received: 819 chars
+[12593] OK real patch -> patches_armB/12593.c  (362 done)
+2026-07-31 07:55:45,884 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:56:40,671 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:56:40,671 [INFO] [ArmB-Stage1-Fix] Response received: 534 chars
+[12623] OK real patch -> patches_armB/12623.c  (363 done)
+2026-07-31 07:56:40,680 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:57:10,643 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:57:10,643 [INFO] [ArmB-Stage1-Fix] Response received: 236 chars
+[12634] OK real patch -> patches_armB/12634.c  (364 done)
+2026-07-31 07:57:10,653 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 07:58:40,434 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 07:58:40,435 [INFO] [ArmB-Stage1-Fix] Response received: 754 chars
+[12660] OK real patch -> patches_armB/12660.c  (365 done)
+2026-07-31 07:58:40,443 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:01:26,695 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:01:26,695 [INFO] [ArmB-Stage1-Fix] Response received: 1581 chars
+[12735] OK real patch -> patches_armB/12735.c  (366 done)
+2026-07-31 08:01:26,705 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:04:57,291 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:04:57,291 [INFO] [ArmB-Stage1-Fix] Response received: 1917 chars
+[12757] OK real patch -> patches_armB/12757.c  (367 done)
+2026-07-31 08:04:57,301 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:05:56,676 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:05:56,676 [INFO] [ArmB-Stage1-Fix] Response received: 546 chars
+[12815] OK real patch -> patches_armB/12815.c  (368 done)
+2026-07-31 08:05:56,687 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:07:17,734 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:07:17,734 [INFO] [ArmB-Stage1-Fix] Response received: 675 chars
+[12837] OK real patch -> patches_armB/12837.c  (369 done)
+2026-07-31 08:07:17,744 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:14:42,915 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:14:42,916 [INFO] [ArmB-Stage1-Fix] Response received: 3087 chars
+[12910] OK real patch -> patches_armB/12910.c  (370 done)
+2026-07-31 08:14:42,926 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:16:47,551 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:16:47,551 [INFO] [ArmB-Stage1-Fix] Response received: 1112 chars
+[12912] OK real patch -> patches_armB/12912.c  (371 done)
+2026-07-31 08:16:47,561 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:21:03,437 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:21:03,437 [INFO] [ArmB-Stage1-Fix] Response received: 2275 chars
+[12938] OK real patch -> patches_armB/12938.c  (372 done)
+2026-07-31 08:21:03,447 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:22:17,797 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:22:17,797 [INFO] [ArmB-Stage1-Fix] Response received: 700 chars
+[12943] OK real patch -> patches_armB/12943.c  (373 done)
+2026-07-31 08:22:17,808 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:24:38,250 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:24:38,250 [INFO] [ArmB-Stage1-Fix] Response received: 1079 chars
+[13056] OK real patch -> patches_armB/13056.c  (374 done)
+2026-07-31 08:24:38,259 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:25:54,139 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:25:54,139 [INFO] [ArmB-Stage1-Fix] Response received: 702 chars
+[13129] OK real patch -> patches_armB/13129.c  (375 done)
+2026-07-31 08:25:54,149 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:27:00,163 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:27:00,164 [INFO] [ArmB-Stage1-Fix] Response received: 702 chars
+[13167] OK real patch -> patches_armB/13167.c  (376 done)
+2026-07-31 08:27:00,173 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:28:44,567 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:28:44,567 [INFO] [ArmB-Stage1-Fix] Response received: 816 chars
+[13204] OK real patch -> patches_armB/13204.c  (377 done)
+2026-07-31 08:28:44,577 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:29:31,322 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:29:31,323 [INFO] [ArmB-Stage1-Fix] Response received: 459 chars
+[13214] OK real patch -> patches_armB/13214.c  (378 done)
+2026-07-31 08:29:31,332 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:30:07,873 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:30:07,873 [INFO] [ArmB-Stage1-Fix] Response received: 353 chars
+[13230] OK real patch -> patches_armB/13230.c  (379 done)
+2026-07-31 08:30:07,883 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:30:48,195 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:30:48,195 [INFO] [ArmB-Stage1-Fix] Response received: 371 chars
+[13239] OK real patch -> patches_armB/13239.c  (380 done)
+2026-07-31 08:30:48,205 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:32:42,116 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:32:42,117 [INFO] [ArmB-Stage1-Fix] Response received: 967 chars
+[13309] OK real patch -> patches_armB/13309.c  (381 done)
+2026-07-31 08:32:42,127 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:40:32,897 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:40:32,898 [INFO] [ArmB-Stage1-Fix] Response received: 3766 chars
+[13348] OK real patch -> patches_armB/13348.c  (382 done)
+2026-07-31 08:40:32,906 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:41:30,222 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:41:30,222 [INFO] [ArmB-Stage1-Fix] Response received: 493 chars
+[13358] OK real patch -> patches_armB/13358.c  (383 done)
+2026-07-31 08:41:30,233 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:42:47,482 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:42:47,483 [INFO] [ArmB-Stage1-Fix] Response received: 657 chars
+[13413] OK real patch -> patches_armB/13413.c  (384 done)
+2026-07-31 08:42:47,493 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:44:44,958 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:44:44,958 [INFO] [ArmB-Stage1-Fix] Response received: 1211 chars
+[13449] OK real patch -> patches_armB/13449.c  (385 done)
+2026-07-31 08:44:44,966 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:46:49,479 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:46:49,479 [INFO] [ArmB-Stage1-Fix] Response received: 827 chars
+[13490] OK real patch -> patches_armB/13490.c  (386 done)
+2026-07-31 08:46:49,487 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:48:11,809 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:48:11,810 [INFO] [ArmB-Stage1-Fix] Response received: 793 chars
+[13619] OK real patch -> patches_armB/13619.c  (387 done)
+2026-07-31 08:48:11,819 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:50:43,285 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:50:43,286 [INFO] [ArmB-Stage1-Fix] Response received: 1067 chars
+[13644] OK real patch -> patches_armB/13644.c  (388 done)
+2026-07-31 08:50:43,297 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 08:52:49,439 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 08:52:49,439 [INFO] [ArmB-Stage1-Fix] Response received: 849 chars
+[13670] OK real patch -> patches_armB/13670.c  (389 done)
+2026-07-31 08:52:49,449 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:01:07,761 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:01:07,762 [INFO] [ArmB-Stage1-Fix] Response received: 3061 chars
+[13695] OK real patch -> patches_armB/13695.c  (390 done)
+2026-07-31 09:01:07,769 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:02:08,081 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:02:08,081 [INFO] [ArmB-Stage1-Fix] Response received: 626 chars
+[13698] OK real patch -> patches_armB/13698.c  (391 done)
+2026-07-31 09:02:08,091 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:04:02,335 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:04:02,335 [INFO] [ArmB-Stage1-Fix] Response received: 969 chars
+[13707] OK real patch -> patches_armB/13707.c  (392 done)
+2026-07-31 09:04:02,355 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:07:28,538 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:07:28,538 [INFO] [ArmB-Stage1-Fix] Response received: 1196 chars
+[13717] OK real patch -> patches_armB/13717.c  (393 done)
+2026-07-31 09:07:28,549 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:08:25,478 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:08:25,479 [INFO] [ArmB-Stage1-Fix] Response received: 442 chars
+[13729] OK real patch -> patches_armB/13729.c  (394 done)
+2026-07-31 09:08:25,490 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:13:14,486 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:13:14,487 [INFO] [ArmB-Stage1-Fix] Response received: 1843 chars
+[13740] OK real patch -> patches_armB/13740.c  (395 done)
+2026-07-31 09:13:14,497 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:15:52,931 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:15:52,931 [INFO] [ArmB-Stage1-Fix] Response received: 1576 chars
+[13775] OK real patch -> patches_armB/13775.c  (396 done)
+2026-07-31 09:15:52,940 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:18:37,579 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:18:37,579 [INFO] [ArmB-Stage1-Fix] Response received: 1102 chars
+[13798] OK real patch -> patches_armB/13798.c  (397 done)
+2026-07-31 09:18:37,590 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:19:14,274 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:19:14,274 [INFO] [ArmB-Stage1-Fix] Response received: 332 chars
+[13812] OK real patch -> patches_armB/13812.c  (398 done)
+2026-07-31 09:19:14,284 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:21:31,150 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:21:31,151 [INFO] [ArmB-Stage1-Fix] Response received: 957 chars
+[13852] OK real patch -> patches_armB/13852.c  (399 done)
+2026-07-31 09:21:31,158 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:23:19,681 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:23:19,682 [INFO] [ArmB-Stage1-Fix] Response received: 963 chars
+[13892] OK real patch -> patches_armB/13892.c  (400 done)
+2026-07-31 09:23:19,692 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:25:06,481 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:25:06,481 [INFO] [ArmB-Stage1-Fix] Response received: 752 chars
+[13936] OK real patch -> patches_armB/13936.c  (401 done)
+2026-07-31 09:25:06,491 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:27:03,683 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:27:03,683 [INFO] [ArmB-Stage1-Fix] Response received: 865 chars
+[13980] OK real patch -> patches_armB/13980.c  (402 done)
+2026-07-31 09:27:03,694 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:28:10,590 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:28:10,590 [INFO] [ArmB-Stage1-Fix] Response received: 429 chars
+[13994] OK real patch -> patches_armB/13994.c  (403 done)
+2026-07-31 09:28:10,601 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:30:02,206 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:30:02,207 [INFO] [ArmB-Stage1-Fix] Response received: 903 chars
+[14000] OK real patch -> patches_armB/14000.c  (404 done)
+2026-07-31 09:30:02,214 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:31:39,801 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:31:39,801 [INFO] [ArmB-Stage1-Fix] Response received: 801 chars
+[14020] OK real patch -> patches_armB/14020.c  (405 done)
+2026-07-31 09:31:39,809 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:32:31,997 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:32:31,997 [INFO] [ArmB-Stage1-Fix] Response received: 415 chars
+[14031] OK real patch -> patches_armB/14031.c  (406 done)
+2026-07-31 09:32:32,007 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:34:09,951 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:34:09,951 [INFO] [ArmB-Stage1-Fix] Response received: 917 chars
+[14057] OK real patch -> patches_armB/14057.c  (407 done)
+2026-07-31 09:34:09,973 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:35:38,854 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:35:38,855 [INFO] [ArmB-Stage1-Fix] Response received: 833 chars
+[14062] OK real patch -> patches_armB/14062.c  (408 done)
+2026-07-31 09:35:38,865 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:36:33,123 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:36:33,124 [INFO] [ArmB-Stage1-Fix] Response received: 472 chars
+[14095] OK real patch -> patches_armB/14095.c  (409 done)
+2026-07-31 09:36:33,134 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:45:16,950 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:45:16,950 [INFO] [ArmB-Stage1-Fix] Response received: 4025 chars
+[14108] OK real patch -> patches_armB/14108.c  (410 done)
+2026-07-31 09:45:16,958 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:46:50,804 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:46:50,805 [INFO] [ArmB-Stage1-Fix] Response received: 655 chars
+[14116] OK real patch -> patches_armB/14116.c  (411 done)
+2026-07-31 09:46:50,815 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:48:32,758 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:48:32,758 [INFO] [ArmB-Stage1-Fix] Response received: 947 chars
+[14130] OK real patch -> patches_armB/14130.c  (412 done)
+2026-07-31 09:48:32,767 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 09:56:42,966 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 09:56:42,967 [INFO] [ArmB-Stage1-Fix] Response received: 2807 chars
+[14165] OK real patch -> patches_armB/14165.c  (413 done)
+2026-07-31 09:56:42,976 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:00:25,285 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:00:25,285 [INFO] [ArmB-Stage1-Fix] Response received: 1687 chars
+[14171] OK real patch -> patches_armB/14171.c  (414 done)
+2026-07-31 10:00:25,295 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:02:36,973 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:02:36,973 [INFO] [ArmB-Stage1-Fix] Response received: 822 chars
+[14212] OK real patch -> patches_armB/14212.c  (415 done)
+2026-07-31 10:02:36,984 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:06:51,183 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:06:51,183 [INFO] [ArmB-Stage1-Fix] Response received: 2518 chars
+[14219] OK real patch -> patches_armB/14219.c  (416 done)
+2026-07-31 10:06:51,193 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:07:36,102 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:07:36,102 [INFO] [ArmB-Stage1-Fix] Response received: 407 chars
+[14319] OK real patch -> patches_armB/14319.c  (417 done)
+2026-07-31 10:07:36,112 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:09:55,351 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:09:55,351 [INFO] [ArmB-Stage1-Fix] Response received: 855 chars
+[14352] OK real patch -> patches_armB/14352.c  (418 done)
+2026-07-31 10:09:55,362 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:11:14,709 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:11:14,709 [INFO] [ArmB-Stage1-Fix] Response received: 571 chars
+[14362] OK real patch -> patches_armB/14362.c  (419 done)
+2026-07-31 10:11:14,719 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:17:33,240 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:17:33,241 [INFO] [ArmB-Stage1-Fix] Response received: 2250 chars
+[14364] OK real patch -> patches_armB/14364.c  (420 done)
+2026-07-31 10:17:33,251 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:20:36,538 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:20:36,538 [INFO] [ArmB-Stage1-Fix] Response received: 1211 chars
+[14379] OK real patch -> patches_armB/14379.c  (421 done)
+2026-07-31 10:20:36,548 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:22:31,071 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:22:31,072 [INFO] [ArmB-Stage1-Fix] Response received: 693 chars
+[14399] OK real patch -> patches_armB/14399.c  (422 done)
+2026-07-31 10:22:31,082 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:27:49,654 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:27:49,655 [INFO] [ArmB-Stage1-Fix] Response received: 2478 chars
+[14413] OK real patch -> patches_armB/14413.c  (423 done)
+2026-07-31 10:27:49,663 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:28:55,645 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:28:55,646 [INFO] [ArmB-Stage1-Fix] Response received: 535 chars
+[14417] OK real patch -> patches_armB/14417.c  (424 done)
+2026-07-31 10:28:55,655 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:30:19,994 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:30:19,994 [INFO] [ArmB-Stage1-Fix] Response received: 758 chars
+[14424] OK real patch -> patches_armB/14424.c  (425 done)
+2026-07-31 10:30:20,004 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:32:14,596 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:32:14,597 [INFO] [ArmB-Stage1-Fix] Response received: 905 chars
+[14433] OK real patch -> patches_armB/14433.c  (426 done)
+2026-07-31 10:32:14,604 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:33:22,608 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:33:22,608 [INFO] [ArmB-Stage1-Fix] Response received: 512 chars
+[14491] OK real patch -> patches_armB/14491.c  (427 done)
+2026-07-31 10:33:22,617 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:35:11,506 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:35:11,506 [INFO] [ArmB-Stage1-Fix] Response received: 811 chars
+[14646] OK real patch -> patches_armB/14646.c  (428 done)
+2026-07-31 10:35:11,517 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:36:20,682 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:36:20,682 [INFO] [ArmB-Stage1-Fix] Response received: 639 chars
+[14805] OK real patch -> patches_armB/14805.c  (429 done)
+2026-07-31 10:36:20,691 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:37:08,322 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:37:08,322 [INFO] [ArmB-Stage1-Fix] Response received: 385 chars
+[14832] OK real patch -> patches_armB/14832.c  (430 done)
+2026-07-31 10:37:08,332 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:39:30,077 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:39:30,077 [INFO] [ArmB-Stage1-Fix] Response received: 1119 chars
+[14848] OK real patch -> patches_armB/14848.c  (431 done)
+2026-07-31 10:39:30,085 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:41:08,178 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:41:08,179 [INFO] [ArmB-Stage1-Fix] Response received: 671 chars
+[14908] OK real patch -> patches_armB/14908.c  (432 done)
+2026-07-31 10:41:08,187 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:42:59,878 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:42:59,879 [INFO] [ArmB-Stage1-Fix] Response received: 1029 chars
+[14912] OK real patch -> patches_armB/14912.c  (433 done)
+2026-07-31 10:42:59,889 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:50:56,435 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:50:56,436 [INFO] [ArmB-Stage1-Fix] Response received: 4449 chars
+[14917] OK real patch -> patches_armB/14917.c  (434 done)
+2026-07-31 10:50:56,446 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:51:46,375 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:51:46,375 [INFO] [ArmB-Stage1-Fix] Response received: 486 chars
+[14935] OK real patch -> patches_armB/14935.c  (435 done)
+2026-07-31 10:51:46,385 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:53:16,008 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:53:16,008 [INFO] [ArmB-Stage1-Fix] Response received: 767 chars
+[14937] OK real patch -> patches_armB/14937.c  (436 done)
+2026-07-31 10:53:16,019 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:57:30,960 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:57:30,961 [INFO] [ArmB-Stage1-Fix] Response received: 1913 chars
+[14965] OK real patch -> patches_armB/14965.c  (437 done)
+2026-07-31 10:57:30,970 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 10:59:47,268 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 10:59:47,268 [INFO] [ArmB-Stage1-Fix] Response received: 1287 chars
+[15034] OK real patch -> patches_armB/15034.c  (438 done)
+2026-07-31 10:59:47,276 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:01:40,527 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:01:40,527 [INFO] [ArmB-Stage1-Fix] Response received: 712 chars
+[15062] OK real patch -> patches_armB/15062.c  (439 done)
+2026-07-31 11:01:40,536 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:06:01,288 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:06:01,289 [INFO] [ArmB-Stage1-Fix] Response received: 1920 chars
+[15108] OK real patch -> patches_armB/15108.c  (440 done)
+2026-07-31 11:06:01,296 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:13:15,283 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:13:15,284 [INFO] [ArmB-Stage1-Fix] Response received: 3149 chars
+[15129] OK real patch -> patches_armB/15129.c  (441 done)
+2026-07-31 11:13:15,294 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:15:36,418 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:15:36,419 [INFO] [ArmB-Stage1-Fix] Response received: 1370 chars
+[15130] OK real patch -> patches_armB/15130.c  (442 done)
+2026-07-31 11:15:36,429 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:16:22,469 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:16:22,470 [INFO] [ArmB-Stage1-Fix] Response received: 383 chars
+[15180] OK real patch -> patches_armB/15180.c  (443 done)
+2026-07-31 11:16:22,480 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:18:52,400 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:18:52,401 [INFO] [ArmB-Stage1-Fix] Response received: 1016 chars
+[15185] OK real patch -> patches_armB/15185.c  (444 done)
+2026-07-31 11:18:52,408 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:20:18,693 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:20:18,694 [INFO] [ArmB-Stage1-Fix] Response received: 600 chars
+[15196] OK real patch -> patches_armB/15196.c  (445 done)
+2026-07-31 11:20:18,702 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:21:44,190 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:21:44,190 [INFO] [ArmB-Stage1-Fix] Response received: 882 chars
+[15197] OK real patch -> patches_armB/15197.c  (446 done)
+2026-07-31 11:21:44,201 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:22:18,763 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:22:18,763 [INFO] [ArmB-Stage1-Fix] Response received: 281 chars
+[15318] OK real patch -> patches_armB/15318.c  (447 done)
+2026-07-31 11:22:18,771 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:26:07,505 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:26:07,505 [INFO] [ArmB-Stage1-Fix] Response received: 2054 chars
+[15346] OK real patch -> patches_armB/15346.c  (448 done)
+2026-07-31 11:26:07,516 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:26:45,882 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:26:45,882 [INFO] [ArmB-Stage1-Fix] Response received: 391 chars
+[15362] OK real patch -> patches_armB/15362.c  (449 done)
+2026-07-31 11:26:45,893 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:30:34,921 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:30:34,922 [INFO] [ArmB-Stage1-Fix] Response received: 2101 chars
+[15395] OK real patch -> patches_armB/15395.c  (450 done)
+2026-07-31 11:30:34,934 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:32:18,906 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:32:18,906 [INFO] [ArmB-Stage1-Fix] Response received: 662 chars
+[15420] OK real patch -> patches_armB/15420.c  (451 done)
+2026-07-31 11:32:18,916 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:33:59,375 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:33:59,376 [INFO] [ArmB-Stage1-Fix] Response received: 754 chars
+[15429] OK real patch -> patches_armB/15429.c  (452 done)
+2026-07-31 11:33:59,389 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:36:24,693 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:36:24,693 [INFO] [ArmB-Stage1-Fix] Response received: 1042 chars
+[15577] OK real patch -> patches_armB/15577.c  (453 done)
+2026-07-31 11:36:24,701 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:38:06,786 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:38:06,786 [INFO] [ArmB-Stage1-Fix] Response received: 653 chars
+[15579] OK real patch -> patches_armB/15579.c  (454 done)
+2026-07-31 11:38:06,796 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:38:49,116 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:38:49,117 [INFO] [ArmB-Stage1-Fix] Response received: 302 chars
+[15596] OK real patch -> patches_armB/15596.c  (455 done)
+2026-07-31 11:38:49,127 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:39:05,949 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:39:05,949 [INFO] [ArmB-Stage1-Fix] Response received: 147 chars
+[15713] OK real patch -> patches_armB/15713.c  (456 done)
+2026-07-31 11:39:05,960 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:40:09,323 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:40:09,323 [INFO] [ArmB-Stage1-Fix] Response received: 655 chars
+[15719] OK real patch -> patches_armB/15719.c  (457 done)
+2026-07-31 11:40:09,334 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:40:52,759 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:40:52,759 [INFO] [ArmB-Stage1-Fix] Response received: 407 chars
+[15768] OK real patch -> patches_armB/15768.c  (458 done)
+2026-07-31 11:40:52,770 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:42:50,896 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:42:50,897 [INFO] [ArmB-Stage1-Fix] Response received: 743 chars
+[15776] OK real patch -> patches_armB/15776.c  (459 done)
+2026-07-31 11:42:50,906 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:43:51,883 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:43:51,884 [INFO] [ArmB-Stage1-Fix] Response received: 567 chars
+[15778] OK real patch -> patches_armB/15778.c  (460 done)
+2026-07-31 11:43:51,893 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:45:43,548 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:45:43,549 [INFO] [ArmB-Stage1-Fix] Response received: 759 chars
+[15857] OK real patch -> patches_armB/15857.c  (461 done)
+2026-07-31 11:45:43,559 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:46:04,831 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:46:04,832 [INFO] [ArmB-Stage1-Fix] Response received: 199 chars
+[15945] OK real patch -> patches_armB/15945.c  (462 done)
+2026-07-31 11:46:04,840 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:49:06,435 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:49:06,435 [INFO] [ArmB-Stage1-Fix] Response received: 1293 chars
+[15948] OK real patch -> patches_armB/15948.c  (463 done)
+2026-07-31 11:49:06,445 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:51:57,471 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:51:57,471 [INFO] [ArmB-Stage1-Fix] Response received: 1299 chars
+[15958] OK real patch -> patches_armB/15958.c  (464 done)
+2026-07-31 11:51:57,481 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:54:32,646 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:54:32,647 [INFO] [ArmB-Stage1-Fix] Response received: 1056 chars
+[15996] OK real patch -> patches_armB/15996.c  (465 done)
+2026-07-31 11:54:32,657 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:55:27,773 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:55:27,773 [INFO] [ArmB-Stage1-Fix] Response received: 435 chars
+[16015] OK real patch -> patches_armB/16015.c  (466 done)
+2026-07-31 11:55:27,783 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 11:57:27,883 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 11:57:27,883 [INFO] [ArmB-Stage1-Fix] Response received: 1353 chars
+[16021] OK real patch -> patches_armB/16021.c  (467 done)
+2026-07-31 11:57:27,893 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:00:32,120 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:00:32,121 [INFO] [ArmB-Stage1-Fix] Response received: 1625 chars
+[16030] OK real patch -> patches_armB/16030.c  (468 done)
+2026-07-31 12:00:32,129 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:02:48,157 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:02:48,158 [INFO] [ArmB-Stage1-Fix] Response received: 975 chars
+[16081] OK real patch -> patches_armB/16081.c  (469 done)
+2026-07-31 12:02:48,169 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:03:36,895 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:03:36,895 [INFO] [ArmB-Stage1-Fix] Response received: 434 chars
+[16101] OK real patch -> patches_armB/16101.c  (470 done)
+2026-07-31 12:03:36,905 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:04:23,102 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:04:23,103 [INFO] [ArmB-Stage1-Fix] Response received: 454 chars
+[16115] OK real patch -> patches_armB/16115.c  (471 done)
+2026-07-31 12:04:23,111 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:05:33,219 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:05:33,219 [INFO] [ArmB-Stage1-Fix] Response received: 662 chars
+[16211] OK real patch -> patches_armB/16211.c  (472 done)
+2026-07-31 12:05:33,228 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:07:37,607 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:07:37,607 [INFO] [ArmB-Stage1-Fix] Response received: 818 chars
+[16234] OK real patch -> patches_armB/16234.c  (473 done)
+2026-07-31 12:07:37,618 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:09:11,206 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:09:11,207 [INFO] [ArmB-Stage1-Fix] Response received: 757 chars
+[16274] OK real patch -> patches_armB/16274.c  (474 done)
+2026-07-31 12:09:11,217 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:10:51,743 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:10:51,743 [INFO] [ArmB-Stage1-Fix] Response received: 782 chars
+[16298] OK real patch -> patches_armB/16298.c  (475 done)
+2026-07-31 12:10:51,752 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:12:22,943 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:12:22,943 [INFO] [ArmB-Stage1-Fix] Response received: 623 chars
+[16312] OK real patch -> patches_armB/16312.c  (476 done)
+2026-07-31 12:12:22,952 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:15:29,566 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:15:29,567 [INFO] [ArmB-Stage1-Fix] Response received: 1678 chars
+[16323] OK real patch -> patches_armB/16323.c  (477 done)
+2026-07-31 12:15:29,576 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:19:36,139 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:19:36,139 [INFO] [ArmB-Stage1-Fix] Response received: 2710 chars
+[16356] OK real patch -> patches_armB/16356.c  (478 done)
+2026-07-31 12:19:36,150 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:20:20,659 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:20:20,659 [INFO] [ArmB-Stage1-Fix] Response received: 455 chars
+[16467] OK real patch -> patches_armB/16467.c  (479 done)
+2026-07-31 12:20:20,669 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:22:17,756 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:22:17,757 [INFO] [ArmB-Stage1-Fix] Response received: 1050 chars
+[16488] OK real patch -> patches_armB/16488.c  (480 done)
+2026-07-31 12:22:17,767 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:24:07,840 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:24:07,841 [INFO] [ArmB-Stage1-Fix] Response received: 1008 chars
+[16505] OK real patch -> patches_armB/16505.c  (481 done)
+2026-07-31 12:24:07,851 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:28:19,553 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:28:19,553 [INFO] [ArmB-Stage1-Fix] Response received: 2024 chars
+[16533] OK real patch -> patches_armB/16533.c  (482 done)
+2026-07-31 12:28:19,563 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:29:13,711 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:29:13,711 [INFO] [ArmB-Stage1-Fix] Response received: 412 chars
+[16543] OK real patch -> patches_armB/16543.c  (483 done)
+2026-07-31 12:29:13,721 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:31:32,880 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:31:32,881 [INFO] [ArmB-Stage1-Fix] Response received: 1006 chars
+[16604] OK real patch -> patches_armB/16604.c  (484 done)
+2026-07-31 12:31:32,891 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:37:37,295 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:37:37,295 [INFO] [ArmB-Stage1-Fix] Response received: 2602 chars
+[16610] OK real patch -> patches_armB/16610.c  (485 done)
+2026-07-31 12:37:37,304 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:38:42,701 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:38:42,701 [INFO] [ArmB-Stage1-Fix] Response received: 574 chars
+[16653] OK real patch -> patches_armB/16653.c  (486 done)
+2026-07-31 12:38:42,711 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:40:42,296 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:40:42,297 [INFO] [ArmB-Stage1-Fix] Response received: 1064 chars
+[16686] OK real patch -> patches_armB/16686.c  (487 done)
+2026-07-31 12:40:42,305 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:41:29,319 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:41:29,319 [INFO] [ArmB-Stage1-Fix] Response received: 377 chars
+[16697] OK real patch -> patches_armB/16697.c  (488 done)
+2026-07-31 12:41:29,328 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:42:30,645 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:42:30,646 [INFO] [ArmB-Stage1-Fix] Response received: 551 chars
+[16698] OK real patch -> patches_armB/16698.c  (489 done)
+2026-07-31 12:42:30,655 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:43:16,741 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:43:16,742 [INFO] [ArmB-Stage1-Fix] Response received: 413 chars
+[16771] OK real patch -> patches_armB/16771.c  (490 done)
+2026-07-31 12:43:16,751 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:44:22,751 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:44:22,751 [INFO] [ArmB-Stage1-Fix] Response received: 541 chars
+[16799] OK real patch -> patches_armB/16799.c  (491 done)
+2026-07-31 12:44:22,761 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:45:23,917 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:45:23,918 [INFO] [ArmB-Stage1-Fix] Response received: 456 chars
+[16857] OK real patch -> patches_armB/16857.c  (492 done)
+2026-07-31 12:45:23,928 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 12:52:15,812 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 12:52:15,812 [INFO] [ArmB-Stage1-Fix] Response received: 2863 chars
+[16868] OK real patch -> patches_armB/16868.c  (493 done)
+2026-07-31 12:52:15,822 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:00:53,041 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:00:53,041 [INFO] [ArmB-Stage1-Fix] Response received: 4818 chars
+[16897] OK real patch -> patches_armB/16897.c  (494 done)
+2026-07-31 13:00:53,050 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:01:50,918 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:01:50,918 [INFO] [ArmB-Stage1-Fix] Response received: 524 chars
+[16988] OK real patch -> patches_armB/16988.c  (495 done)
+2026-07-31 13:01:50,928 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:07:06,905 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:07:06,906 [INFO] [ArmB-Stage1-Fix] Response received: 2471 chars
+[16998] OK real patch -> patches_armB/16998.c  (496 done)
+2026-07-31 13:07:06,913 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:08:18,903 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:08:18,904 [INFO] [ArmB-Stage1-Fix] Response received: 739 chars
+[17017] OK real patch -> patches_armB/17017.c  (497 done)
+2026-07-31 13:08:18,913 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:10:10,507 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:10:10,507 [INFO] [ArmB-Stage1-Fix] Response received: 975 chars
+[17030] OK real patch -> patches_armB/17030.c  (498 done)
+2026-07-31 13:10:10,516 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:10:54,097 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:10:54,098 [INFO] [ArmB-Stage1-Fix] Response received: 363 chars
+[17290] OK real patch -> patches_armB/17290.c  (499 done)
+2026-07-31 13:10:54,106 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:14:28,091 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:14:28,091 [INFO] [ArmB-Stage1-Fix] Response received: 1804 chars
+[17300] OK real patch -> patches_armB/17300.c  (500 done)
+2026-07-31 13:14:28,099 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:16:42,801 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:16:42,802 [INFO] [ArmB-Stage1-Fix] Response received: 1288 chars
+[17316] OK real patch -> patches_armB/17316.c  (501 done)
+2026-07-31 13:16:42,811 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:18:04,997 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:18:04,998 [INFO] [ArmB-Stage1-Fix] Response received: 521 chars
+[17356] OK real patch -> patches_armB/17356.c  (502 done)
+2026-07-31 13:18:05,008 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:19:10,518 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:19:10,519 [INFO] [ArmB-Stage1-Fix] Response received: 626 chars
+[17365] OK real patch -> patches_armB/17365.c  (503 done)
+2026-07-31 13:19:10,529 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:19:49,084 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:19:49,084 [INFO] [ArmB-Stage1-Fix] Response received: 366 chars
+[17380] OK real patch -> patches_armB/17380.c  (504 done)
+2026-07-31 13:19:49,095 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:21:11,178 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:21:11,178 [INFO] [ArmB-Stage1-Fix] Response received: 747 chars
+[17386] OK real patch -> patches_armB/17386.c  (505 done)
+2026-07-31 13:21:11,187 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:22:57,068 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:22:57,069 [INFO] [ArmB-Stage1-Fix] Response received: 1167 chars
+[17400] OK real patch -> patches_armB/17400.c  (506 done)
+2026-07-31 13:22:57,079 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:24:31,412 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:24:31,412 [INFO] [ArmB-Stage1-Fix] Response received: 700 chars
+[17402] OK real patch -> patches_armB/17402.c  (507 done)
+2026-07-31 13:24:31,421 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:27:11,429 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:27:11,429 [INFO] [ArmB-Stage1-Fix] Response received: 950 chars
+[17492] OK real patch -> patches_armB/17492.c  (508 done)
+2026-07-31 13:27:11,438 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:30:50,962 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:30:50,962 [INFO] [ArmB-Stage1-Fix] Response received: 2031 chars
+[17500] OK real patch -> patches_armB/17500.c  (509 done)
+2026-07-31 13:30:50,973 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:32:22,599 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:32:22,599 [INFO] [ArmB-Stage1-Fix] Response received: 713 chars
+[17560] OK real patch -> patches_armB/17560.c  (510 done)
+2026-07-31 13:32:22,609 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:36:31,490 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:36:31,490 [INFO] [ArmB-Stage1-Fix] Response received: 1939 chars
+[17592] OK real patch -> patches_armB/17592.c  (511 done)
+2026-07-31 13:36:31,500 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:38:51,777 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:38:51,777 [INFO] [ArmB-Stage1-Fix] Response received: 1003 chars
+[17658] OK real patch -> patches_armB/17658.c  (512 done)
+2026-07-31 13:38:51,788 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:39:36,673 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:39:36,673 [INFO] [ArmB-Stage1-Fix] Response received: 420 chars
+[17668] OK real patch -> patches_armB/17668.c  (513 done)
+2026-07-31 13:39:36,687 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:40:54,435 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:40:54,436 [INFO] [ArmB-Stage1-Fix] Response received: 618 chars
+[17710] OK real patch -> patches_armB/17710.c  (514 done)
+2026-07-31 13:40:54,446 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:43:37,438 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:43:37,438 [INFO] [ArmB-Stage1-Fix] Response received: 1243 chars
+[17720] OK real patch -> patches_armB/17720.c  (515 done)
+2026-07-31 13:43:37,448 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:44:42,242 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:44:42,242 [INFO] [ArmB-Stage1-Fix] Response received: 505 chars
+[17721] OK real patch -> patches_armB/17721.c  (516 done)
+2026-07-31 13:44:42,250 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:46:09,802 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:46:09,802 [INFO] [ArmB-Stage1-Fix] Response received: 626 chars
+[17829] OK real patch -> patches_armB/17829.c  (517 done)
+2026-07-31 13:46:09,811 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:46:51,280 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:46:51,281 [INFO] [ArmB-Stage1-Fix] Response received: 351 chars
+[17850] OK real patch -> patches_armB/17850.c  (518 done)
+2026-07-31 13:46:51,291 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:47:29,266 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:47:29,267 [INFO] [ArmB-Stage1-Fix] Response received: 341 chars
+[17853] OK real patch -> patches_armB/17853.c  (519 done)
+2026-07-31 13:47:29,277 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:52:13,189 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:52:13,189 [INFO] [ArmB-Stage1-Fix] Response received: 1902 chars
+[17865] OK real patch -> patches_armB/17865.c  (520 done)
+2026-07-31 13:52:13,200 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 13:54:58,202 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 13:54:58,203 [INFO] [ArmB-Stage1-Fix] Response received: 1235 chars
+[17897] OK real patch -> patches_armB/17897.c  (521 done)
+2026-07-31 13:54:58,212 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:01:05,984 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:01:05,984 [INFO] [ArmB-Stage1-Fix] Response received: 3114 chars
+[17942] OK real patch -> patches_armB/17942.c  (522 done)
+2026-07-31 14:01:05,994 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:02:02,159 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:02:02,159 [INFO] [ArmB-Stage1-Fix] Response received: 465 chars
+[17947] OK real patch -> patches_armB/17947.c  (523 done)
+2026-07-31 14:02:02,167 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:08:38,316 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:08:38,317 [INFO] [ArmB-Stage1-Fix] Response received: 2673 chars
+[17950] OK real patch -> patches_armB/17950.c  (524 done)
+2026-07-31 14:08:38,327 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:10:42,295 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:10:42,295 [INFO] [ArmB-Stage1-Fix] Response received: 1055 chars
+[17966] OK real patch -> patches_armB/17966.c  (525 done)
+2026-07-31 14:10:42,306 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:15:15,360 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:15:15,361 [INFO] [ArmB-Stage1-Fix] Response received: 1758 chars
+[17982] OK real patch -> patches_armB/17982.c  (526 done)
+2026-07-31 14:15:15,371 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:16:11,315 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:16:11,316 [INFO] [ArmB-Stage1-Fix] Response received: 454 chars
+[18022] OK real patch -> patches_armB/18022.c  (527 done)
+2026-07-31 14:16:11,325 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:17:37,343 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:17:37,343 [INFO] [ArmB-Stage1-Fix] Response received: 753 chars
+[18107] OK real patch -> patches_armB/18107.c  (528 done)
+2026-07-31 14:17:37,353 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:18:18,427 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:18:18,427 [INFO] [ArmB-Stage1-Fix] Response received: 376 chars
+[18132] OK real patch -> patches_armB/18132.c  (529 done)
+2026-07-31 14:18:18,436 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:20:59,264 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:20:59,264 [INFO] [ArmB-Stage1-Fix] Response received: 1580 chars
+[18193] OK real patch -> patches_armB/18193.c  (530 done)
+2026-07-31 14:20:59,274 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:22:13,690 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:22:13,691 [INFO] [ArmB-Stage1-Fix] Response received: 765 chars
+[18247] OK real patch -> patches_armB/18247.c  (531 done)
+2026-07-31 14:22:13,698 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:23:28,403 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:23:28,403 [INFO] [ArmB-Stage1-Fix] Response received: 560 chars
+[18259] OK real patch -> patches_armB/18259.c  (532 done)
+2026-07-31 14:23:28,413 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:24:37,109 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:24:37,110 [INFO] [ArmB-Stage1-Fix] Response received: 560 chars
+[18260] OK real patch -> patches_armB/18260.c  (533 done)
+2026-07-31 14:24:37,120 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:32:28,050 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:32:28,051 [INFO] [ArmB-Stage1-Fix] Response received: 3042 chars
+[18301] OK real patch -> patches_armB/18301.c  (534 done)
+2026-07-31 14:32:28,059 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:36:43,614 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:36:43,614 [INFO] [ArmB-Stage1-Fix] Response received: 2091 chars
+[18322] OK real patch -> patches_armB/18322.c  (535 done)
+2026-07-31 14:36:43,624 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:40:57,383 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:40:57,383 [INFO] [ArmB-Stage1-Fix] Response received: 2174 chars
+[18407] OK real patch -> patches_armB/18407.c  (536 done)
+2026-07-31 14:40:57,394 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:45:12,763 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:45:12,763 [INFO] [ArmB-Stage1-Fix] Response received: 2307 chars
+[18414] OK real patch -> patches_armB/18414.c  (537 done)
+2026-07-31 14:45:12,772 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:48:18,736 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:48:18,737 [INFO] [ArmB-Stage1-Fix] Response received: 1697 chars
+[18538] OK real patch -> patches_armB/18538.c  (538 done)
+2026-07-31 14:48:18,747 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:57:03,174 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:57:03,174 [INFO] [ArmB-Stage1-Fix] Response received: 5070 chars
+[18571] OK real patch -> patches_armB/18571.c  (539 done)
+2026-07-31 14:57:03,184 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 14:58:32,926 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 14:58:32,926 [INFO] [ArmB-Stage1-Fix] Response received: 849 chars
+[18646] OK real patch -> patches_armB/18646.c  (540 done)
+2026-07-31 14:58:32,936 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 15:08:43,283 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 15:08:43,283 [INFO] [ArmB-Stage1-Fix] Response received: 4381 chars
+[18676] OK real patch -> patches_armB/18676.c  (541 done)
+2026-07-31 15:08:43,293 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 15:09:28,056 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 15:09:28,057 [INFO] [ArmB-Stage1-Fix] Response received: 653 chars
+[18727] OK real patch -> patches_armB/18727.c  (542 done)
+2026-07-31 15:09:28,067 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 15:10:49,118 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 15:10:49,118 [INFO] [ArmB-Stage1-Fix] Response received: 582 chars
+[18730] OK real patch -> patches_armB/18730.c  (543 done)
+2026-07-31 15:10:49,128 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 15:12:23,744 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 15:12:23,745 [INFO] [ArmB-Stage1-Fix] Response received: 862 chars
+[18733] OK real patch -> patches_armB/18733.c  (544 done)
+2026-07-31 15:12:23,756 [INFO] [ArmB-Stage1-Fix] Calling llama3.1:70b on Ollama...
+2026-07-31 15:13:03,297 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-31 15:13:03,297 [INFO] [ArmB-Stage1-Fix] Response received: 368 chars
+[18822] OK real patch -> patches_armB/18822.c  (545 done)
+
+DONE. real=545  failed=0  skipped=3  archived_total=548
+Failures logged to armB_failures.txt

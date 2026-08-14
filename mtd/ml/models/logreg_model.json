@@ -1,0 +1,393 @@
+{
+  "model_type": "logistic_regression",
+  "weights": [
+    -0.2665996253490448,
+    0.7074713110923767,
+    -0.2607780992984772,
+    0.045404355973005295,
+    0.20123213529586792,
+    -0.30257555842399597,
+    0.2287653386592865,
+    -0.10663137584924698,
+    0.03884135186672211,
+    0.09946916997432709,
+    0.2667630612850189,
+    -0.20651432871818542,
+    0.034450873732566833,
+    0.11096826940774918,
+    -0.09796128422021866,
+    0.2658737599849701,
+    0.07059621810913086,
+    0.05968556925654411,
+    0.06305047124624252,
+    -0.13402263820171356,
+    0.10588940978050232,
+    -0.045223116874694824,
+    -0.2699071764945984,
+    0.08629821985960007,
+    0.7044259309768677,
+    0.1843072772026062,
+    -0.23413169384002686,
+    0.07218053191900253,
+    0.7073344588279724,
+    -0.9330460429191589,
+    -0.07975658029317856,
+    -0.09633804857730865,
+    0.06122361496090889,
+    -0.6336444616317749,
+    0.010248671285808086,
+    -0.038092419505119324,
+    0.301906555891037,
+    0.09264039248228073
+  ],
+  "bias": -0.7573787618719586,
+  "scaler": {
+    "mean": [
+      0.02973146177828312,
+      0.6378579139709473,
+      0.21075336635112762,
+      0.18709075450897217,
+      0.13187405467033386,
+      0.7146881222724915,
+      0.40063825249671936,
+      0.2770407199859619,
+      0.9919880032539368,
+      0.24733586609363556,
+      0.00785128865391016,
+      0.001989562762901187,
+      0.013585792854428291,
+      0.029070425778627396,
+      0.01127453614026308,
+      0.007851566188037395,
+      0.4993993043899536,
+      0.24146510660648346,
+      0.2544138729572296,
+      0.2571592926979065,
+      0.2600580155849457,
+      0.07480016350746155,
+      0.04033808037638664,
+      0.18832524120807648,
+      0.6378579139709473,
+      0.21753652393817902,
+      0.20575344562530518,
+      0.0005036743823438883,
+      0.0013043105136603117,
+      0.31974872946739197,
+      0.05372276157140732,
+      0.0030339465010911226,
+      0.06653133779764175,
+      0.0024198044557124376,
+      0.07563184946775436,
+      0.02733338251709938,
+      0.020413745194673538,
+      0.0014308008830994368
+    ],
+    "std": [
+      0.0730779618024826,
+      0.3875657320022583,
+      0.1821201592683792,
+      0.17147381603717804,
+      0.1543823629617691,
+      0.27140912413597107,
+      0.09513776004314423,
+      0.07063277065753937,
+      0.06933057308197021,
+      0.12493204325437546,
+      0.03874187171459198,
+      0.03214913234114647,
+      0.07928215712308884,
+      0.13888870179653168,
+      0.036449022591114044,
+      0.038741327822208405,
+      0.3928597569465637,
+      0.1518305540084839,
+      0.1427840292453766,
+      0.21072107553482056,
+      0.21427254378795624,
+      0.19011935591697693,
+      0.14175324141979218,
+      0.11689983308315277,
+      0.3875657320022583,
+      0.1955474317073822,
+      0.1737082600593567,
+      0.003008098341524601,
+      0.036068301647901535,
+      0.46562036871910095,
+      0.1238151416182518,
+      0.01617170311510563,
+      0.08866094052791595,
+      0.01173096802085638,
+      0.03619852662086487,
+      0.08998289704322815,
+      0.07726571708917618,
+      0.025930432602763176
+    ]
+  },
+  "feature_names": [
+    "pattern_hit_count",
+    "line_density",
+    "avg_line_conf",
+    "param_count_norm",
+    "line_count_norm",
+    "risky_line_ratio",
+    "top_line_score",
+    "mean_risky_score",
+    "risky_line_count_log",
+    "risky_line_count_abs",
+    "overall_syntax_risk",
+    "high_severity_count",
+    "medium_severity_count",
+    "low_severity_count",
+    "unique_cwe_count",
+    "construct_density",
+    "data_flow_risk",
+    "control_flow_risk",
+    "overall_dep_risk",
+    "tainted_var_count",
+    "source_count",
+    "sink_count",
+    "path_count",
+    "nesting_depth_norm",
+    "susp_line_ratio",
+    "max_line_conf",
+    "min_line_conf",
+    "conf_variance",
+    "strategy_gt",
+    "strategy_heuristic",
+    "loop_count_norm",
+    "t1_x_t3",
+    "t1_x_t4",
+    "t3_x_t4",
+    "density_x_conf",
+    "source_x_sink_norm",
+    "risky_x_paths",
+    "high_sev_x_data_flow"
+  ],
+  "trained_on": "bigvul_only",
+  "scaler_fitted_on": "bigvul+megavul_combined",
+  "task1_alpha": 0.3,
+  "task3_weights": {
+    "w_H": 5.0,
+    "w_M": 4.0,
+    "w_L": 3.0
+  },
+  "task4_weights": {
+    "w_df": 0.4,
+    "w_cf": 0.6
+  },
+  "opt_threshold": 0.16,
+  "threshold_metrics": {
+    "threshold": 0.16,
+    "f1": 0.8683,
+    "precision": 0.9919,
+    "recall": 0.7722
+  },
+  "trust_threshold": 0.75,
+  "trust_calibration": {
+    "intercept": 0.45,
+    "slope": 0.6
+  },
+  "task_weights": {
+    "task1": 0.0,
+    "task2": 0.84102,
+    "task3": 0.0,
+    "task4": 0.15898
+  },
+  "alc_params": {
+    "conflict_threshold": 0.5,
+    "min_consistency": 0.3,
+    "variance_decay": 2.0,
+    "direction_threshold": 0.7,
+    "blend_weights": {
+      "consistency": 0.715,
+      "calibration": 0.2025,
+      "strategy": 0.0825
+    },
+    "strategy_quality": {
+      "ground_truth": 1.0,
+      "heuristic": 0.8,
+      "all_lines": 0.5
+    }
+  },
+  "metrics": {
+    "accuracy": 0.9881,
+    "precision": 1.0,
+    "recall": 0.7867,
+    "f1": 0.8806,
+    "auc_roc": 0.9386,
+    "threshold": 0.16,
+    "tp": 166,
+    "tn": 3561,
+    "fp": 0,
+    "fn": 45,
+    "support_pos": 211,
+    "support_neg": 3561,
+    "evaluated_on": "bigvul_test_set"
+  },
+  "megavul_score_dist": {
+    "n": 371848,
+    "mean": 0.4784,
+    "std": 0.309,
+    "buckets": {
+      "0.0-0.2": 111090,
+      "0.2-0.4": 2087,
+      "0.4-0.6": 48327,
+      "0.6-0.8": 182759,
+      "0.8-1.0": 27585
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "strategy_heuristic",
+      "importance": 0.113451
+    },
+    {
+      "feature": "line_density",
+      "importance": 0.086023
+    },
+    {
+      "feature": "strategy_gt",
+      "importance": 0.086006
+    },
+    {
+      "feature": "susp_line_ratio",
+      "importance": 0.085652
+    },
+    {
+      "feature": "t3_x_t4",
+      "importance": 0.077046
+    },
+    {
+      "feature": "risky_line_ratio",
+      "importance": 0.036791
+    },
+    {
+      "feature": "risky_x_paths",
+      "importance": 0.036709
+    },
+    {
+      "feature": "path_count",
+      "importance": 0.032818
+    },
+    {
+      "feature": "overall_syntax_risk",
+      "importance": 0.032436
+    },
+    {
+      "feature": "pattern_hit_count",
+      "importance": 0.032416
+    },
+    {
+      "feature": "construct_density",
+      "importance": 0.032328
+    },
+    {
+      "feature": "avg_line_conf",
+      "importance": 0.031708
+    },
+    {
+      "feature": "min_line_conf",
+      "importance": 0.028468
+    },
+    {
+      "feature": "top_line_score",
+      "importance": 0.027816
+    },
+    {
+      "feature": "high_severity_count",
+      "importance": 0.02511
+    },
+    {
+      "feature": "line_count_norm",
+      "importance": 0.024468
+    },
+    {
+      "feature": "max_line_conf",
+      "importance": 0.02241
+    },
+    {
+      "feature": "tainted_var_count",
+      "importance": 0.016296
+    },
+    {
+      "feature": "low_severity_count",
+      "importance": 0.013493
+    },
+    {
+      "feature": "mean_risky_score",
+      "importance": 0.012965
+    },
+    {
+      "feature": "source_count",
+      "importance": 0.012875
+    },
+    {
+      "feature": "risky_line_count_abs",
+      "importance": 0.012095
+    },
+    {
+      "feature": "unique_cwe_count",
+      "importance": 0.011911
+    },
+    {
+      "feature": "t1_x_t3",
+      "importance": 0.011714
+    },
+    {
+      "feature": "high_sev_x_data_flow",
+      "importance": 0.011264
+    },
+    {
+      "feature": "nesting_depth_norm",
+      "importance": 0.010493
+    },
+    {
+      "feature": "loop_count_norm",
+      "importance": 0.009698
+    },
+    {
+      "feature": "conf_variance",
+      "importance": 0.008777
+    },
+    {
+      "feature": "data_flow_risk",
+      "importance": 0.008584
+    },
+    {
+      "feature": "overall_dep_risk",
+      "importance": 0.007666
+    },
+    {
+      "feature": "t1_x_t4",
+      "importance": 0.007444
+    },
+    {
+      "feature": "control_flow_risk",
+      "importance": 0.007257
+    },
+    {
+      "feature": "param_count_norm",
+      "importance": 0.005521
+    },
+    {
+      "feature": "sink_count",
+      "importance": 0.005499
+    },
+    {
+      "feature": "risky_line_count_log",
+      "importance": 0.004723
+    },
+    {
+      "feature": "source_x_sink_norm",
+      "importance": 0.004632
+    },
+    {
+      "feature": "medium_severity_count",
+      "importance": 0.004189
+    },
+    {
+      "feature": "density_x_conf",
+      "importance": 0.001246
+    }
+  ]
+}

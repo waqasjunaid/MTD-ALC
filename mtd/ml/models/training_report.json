@@ -1,0 +1,38 @@
+{
+  "trained_on": "bigvul_only",
+  "scaler_fitted_on": "bigvul+megavul",
+  "n_train": 12263,
+  "n_val": 2829,
+  "n_test": 3772,
+  "n_megavul_scaler": 371848,
+  "logreg": {
+    "accuracy": 0.9881,
+    "precision": 1.0,
+    "recall": 0.7867,
+    "f1": 0.8806,
+    "auc_roc": 0.9386,
+    "threshold": 0.16,
+    "tp": 166,
+    "tn": 3561,
+    "fp": 0,
+    "fn": 45,
+    "support_pos": 211,
+    "support_neg": 3561,
+    "evaluated_on": "bigvul_test_set"
+  },
+  "nn": {
+    "accuracy": 0.9873,
+    "precision": 0.9822,
+    "recall": 0.7867,
+    "f1": 0.8737,
+    "auc_roc": 0.9095,
+    "threshold": 0.14,
+    "tp": 166,
+    "tn": 3558,
+    "fp": 3,
+    "fn": 45,
+    "support_pos": 211,
+    "support_neg": 3561,
+    "evaluated_on": "bigvul_test_set"
+  }
+}

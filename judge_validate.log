@@ -1,0 +1,49 @@
+nohup: 忽略输入
+note: skipped 7 degenerate/empty samples (reference == vulnerable or missing).
+scoring 150 ids per control group, model=llama3.1:70b
+[neg/vulnerable] 150 to score (0 done) -> judge_vuln.jsonl
+  [neg/vulnerable] 10/150
+  [neg/vulnerable] 20/150
+  [neg/vulnerable] 30/150
+  [neg/vulnerable] 40/150
+  [neg/vulnerable] 50/150
+  [neg/vulnerable] 60/150
+  [neg/vulnerable] 70/150
+  [neg/vulnerable] 80/150
+  [neg/vulnerable] 90/150
+  [neg/vulnerable] 100/150
+  [neg/vulnerable] 110/150
+  [neg/vulnerable] 120/150
+  [neg/vulnerable] 130/150
+  [neg/vulnerable] 140/150
+  [neg/vulnerable] 150/150
+[pos/reference] 150 to score (0 done) -> judge_ref.jsonl
+  [pos/reference] 10/150
+  [pos/reference] 20/150
+  [pos/reference] 30/150
+  [pos/reference] 40/150
+  [pos/reference] 50/150
+  [pos/reference] 60/150
+  [pos/reference] 70/150
+  [pos/reference] 80/150
+  [pos/reference] 90/150
+  [pos/reference] 100/150
+  [pos/reference] 110/150
+  [pos/reference] 120/150
+  [pos/reference] 130/150
+  [pos/reference] 140/150
+  [pos/reference] 150/150
+
+=== JUDGE VALIDATION (controls with known labels) ===
+  positive control  (reference fixes):        n=147  mean=5.99  addressed=38.1%
+  negative control  (unmodified vulnerable):  n=147  mean=1.16  addressed=0.0%
+  your generated patches (for reference):     n=524  mean=8.44  addressed=89.5%
+
+  AUC (judge score separates good from bad fixes): 0.954
+  -> separation is CLEAN (>=0.85 clean, 0.70-0.85 moderate, <0.70 weak)
+  paired Wilcoxon (reference > vulnerable): p = 2.517e-24 (n_pairs=146, non-tied=133)
+  Mann-Whitney U (reference > vulnerable):  p = 2.526e-48
+
+  interpretation: if the judge scores known-good fixes well above
+  unmodified-vulnerable code, it discriminates correct from incorrect
+  repairs on labeled data -- validating the metric without human review.

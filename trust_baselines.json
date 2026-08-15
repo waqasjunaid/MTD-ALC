@@ -1,0 +1,53 @@
+{
+  "n_total": 18864,
+  "n_fit": 9432,
+  "n_eval": 9432,
+  "temperature": 0.9890343174423568,
+  "calibration": {
+    "raw": {
+      "ece": 0.0001,
+      "brier": 0.0139
+    },
+    "temperature_scaling": {
+      "ece": 0.0006,
+      "brier": 0.0139
+    },
+    "isotonic": {
+      "ece": 0.0007,
+      "brier": 0.0139
+    },
+    "isotonic_impl": "sklearn"
+  },
+  "conformal": [
+    {
+      "alpha": 0.1,
+      "target_coverage": 0.9,
+      "empirical_coverage": 0.9053,
+      "qhat": 0.0252,
+      "set_size_0_pct": 8.3,
+      "set_size_1_pct": 91.7,
+      "set_size_2_pct": 0.0,
+      "abstain_pct": 0.0
+    },
+    {
+      "alpha": 0.05,
+      "target_coverage": 0.95,
+      "empirical_coverage": 0.954,
+      "qhat": 0.0353,
+      "set_size_0_pct": 3.32,
+      "set_size_1_pct": 96.68,
+      "set_size_2_pct": 0.0,
+      "abstain_pct": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "target_coverage": 0.99,
+      "empirical_coverage": 0.9894,
+      "qhat": 0.9783,
+      "set_size_0_pct": 0.0,
+      "set_size_1_pct": 86.49,
+      "set_size_2_pct": 13.51,
+      "abstain_pct": 13.51
+    }
+  ]
+}
